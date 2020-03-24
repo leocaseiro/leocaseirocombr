@@ -1,114 +1,110 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
+import linkedin from '../img/social/linkedin.svg'
+import github from '../img/social/github.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import slideshare from '../img/social/slideshare.svg'
+import slides from '../img/social/desktop.svg'
+import wordpress from '../img/social/wordpress.svg'
+import stackoverflow from '../img/social/stack-overflow.svg';
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    )
+		<footer className="footer has-background-black has-text-white-ter">
+			<div className="content has-text-centered has-background-black has-text-white-ter">
+				<div className="container has-background-black has-text-white-ter">
+					<div className="columns">
+						<div className="column is-6">
+							<section className="menu">
+								<ul className="menu-list">
+									<li>
+										<Link to="/" className="navbar-item">
+											Home
+										</Link>
+									</li>
+									<li>
+										<Link className="navbar-item" to="/contato">
+											Contato
+										</Link>
+									</li>
+									<li>
+										<Link className="navbar-item" to="/sobre">
+											Sobre o Autor
+										</Link>
+									</li>
+								</ul>
+							</section>
+						</div>
+						<div className="column is-6 social">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="twitter"
+								href="https://twitter.com/leocaseiro"
+							>
+								<img
+									className="fas fa-lg"
+									src={twitter}
+									alt="Twitter"
+									style={{ width: '1em', height: '1em' }}
+								/>
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="linkedin"
+								href="https://linkedin.com/in/leocaseiro"
+							>
+								<img src={linkedin} alt="Linkedin" style={{ width: '1em', height: '1em' }} />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="WordPress"
+								href="https://profiles.wordpress.org/leocaseiro"
+							>
+								<img src={wordpress} alt="WordPress" style={{ width: '1em', height: '1em' }} />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="github"
+								href="https://github.com/leocaseiro"
+							>
+								<img src={github} alt="GitHub" style={{ width: '1em', height: '1em' }} />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="slideshare"
+								href="https://slideshare.net/leocaseiro"
+							>
+								<img src={slideshare} alt="SlideShare" style={{ width: '1em', height: '1em' }} />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="slides"
+								href="https://slides.com/leocaseiro"
+							>
+								<img src={slides} alt="Slides" style={{ width: '1em', height: '1em' }} />
+							</a>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								title="stackoverflow"
+								href="https://stackoverflow.com/users/3415716/leo-caseiro"
+							>
+								<img src={stackoverflow} alt="StackOverflow" style={{ width: '1em', height: '1em' }} />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
   }
 }
 

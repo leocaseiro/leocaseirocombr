@@ -1,8 +1,9 @@
 ---
 templateKey: about-page
-path: /about
+path: /sobre
 title: Sobre o Autor
 ---
+
 Leonardo Adorno Caseiro, 34 anos, designer e desenvolvedor web.\
 Nascido em São Paulo, SP no dia 1 de Junho de 1985.
 
@@ -19,11 +20,11 @@ Naquela época eu me familiarizava mais com Design do que programação.\
 A minha vida profissional me levou para o lado do Desenvolvimento, deixando de lado a área de criação.\
 Trabalhei na [MediaDev](http://www.mediadev.com.br/) de Maio de 2007 à Junho de 2009, uma Agência de Desenvolvimento Web que pertence ao Grupo AdBusiness. Lá tive meu primeiro contato com o WordPress, ainda em 2007. Fiz também meu primeiro projeto em MVC, um e-commerce feito sem CMS.
 
-Trabalhei na Agência [Load Comunicação](http://www.loadcom.com.br "Load Comunicação") de Junho de 2009 à Maio de 2010. Me dedicando cada vez mais em padrões W3C, usabilidade, acessibilidade, SEO e trabalhei com Design Pattern MVC e muito WordPress.
+Trabalhei na Agência [Load Comunicação](http://www.loadcom.com.br 'Load Comunicação') de Junho de 2009 à Maio de 2010. Me dedicando cada vez mais em padrões W3C, usabilidade, acessibilidade, SEO e trabalhei com Design Pattern MVC e muito WordPress.
 
 Temporariamente, desenvolvi na Fábrica de Software [BSY(Business System)](http://www.bsy.com.br/). Onde utilizei o Zend Framework e tive meu primeiro contato com PostgreSQL para à maioria dos projetos.
 
-Ainda enquanto estava na Fábrica de Software, recebi uma proposta da [Tag'n Click](http://tagnclick.com.br/ "Tag'n Click"), atual [BG7](http://www.bg7.com.br/ "BG7 Background Digital"). Entrei para a *Tag* para desenvolver MVC. Alguns meses depois dei um Workshop sobre WordPress para o time e resolvemos adotar o WordPress para a maioria dos projetos. De lá foquei também com bastante Open Source, principalmente para Plugins CCK do WordPress.
+Ainda enquanto estava na Fábrica de Software, recebi uma proposta da [Tag'n Click](http://tagnclick.com.br/ "Tag'n Click"), atual [BG7](http://www.bg7.com.br/ 'BG7 Background Digital'). Entrei para a _Tag_ para desenvolver MVC. Alguns meses depois dei um Workshop sobre WordPress para o time e resolvemos adotar o WordPress para a maioria dos projetos. De lá foquei também com bastante Open Source, principalmente para Plugins CCK do WordPress.
 
 No final de 2012, resolvi que devia aprender inglês de vez e resolvi tentar a vida fora do Brasil e me mudei para A Australia. Na [IDM](http://www.independentdigitalmedia.com.au/), programei puramente WordPress, com projetos bem customizados, desde o Admin e até mesmo usando o WP como API. [](http://www.independentdigitalmedia.com.au/)A empresa situada em Sydney/Australia possuia 3 grandes websites, onde fiz manutenções no [homehound.com.au](http://homehound.com.au/) que foi comprado pela [ReNet](http://renet.com.au/). Por lá, trabalhei por mais um tempo, e comecei a focar mais no Frontend, até entrar como Senior Engineer no [commbank.com.au](https://www.commbank.com.au/), um dos maiores bancos da Australia.
 

@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Leo Caseiro
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: programação e desenvolvimento web (PHP, MySQL, JavaScript, jQuery, WordPress, etc)
 mainpitch:
   title: Why Kaldi
   description: >
