@@ -1,0 +1,455 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:na="http://schema.org/"
+	xmlns:fb="http://developers.facebook.com/schema/"
+	xmlns:og="http://opengraphprotocol.org/schema/"
+    lang="pt-br">
+    <head>
+        <title>Blogs - Notícias, moda, cinema, humor, futebol e muito mais - O Globo</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="Blogs do site do jornal O Globo com contedo online sobre moda, cinema, humor, futebol, cultura, celebridades, poltica, economia e muito mais">
+
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://blogs.oglobo.globo.com/index.html">
+        <meta property="og:image" content="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_img/oglobo.jpg">
+        <meta property="og:title" content="Blogs - Notícias, moda, cinema, humor, futebol e muito mais - O Globo">
+        <meta property="og:site_name" content="Blogs - O Globo">
+        <meta property="og:description" content="Blogs do site do jornal O Globo com contedo online sobre moda, cinema, humor, futebol, cultura, celebridades, poltica, economia e muito mais">
+
+
+        <link rel="canonical" href="https://blogs.oglobo.globo.com/index.html" />
+        <link rel="stylesheet" href="https://s.glbimg.com/gl/ba/css/barra-globocom.min.css" type="text/css" />
+<script type="text/javascript" src="https://ogjs.infoglobo.com.br/1462389483/js/advertisement.js"></script>
+
+
+        <link rel="stylesheet" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/css/publicidade_fixa.css" />
+        <link rel="stylesheet" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_css/redesign2019/home.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_img/favicon.ico">
+        <link rel="apple-touch-icon" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_img/touch-icon-iphone4.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_img/touch-icon-ipad.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>let jquery_1_7_2 = $;</script>
+
+        <script>
+            let value2 = 'Capa de Blogs';
+            let barra_editoria = {"nome": "Blogs", "nome_formatado": "blogs"};
+            let ig_editoria = "";
+        </script>
+        <script>
+// Flag do OAS
+var pub_OAS_on = false; 
+
+// Flag DFP
+var pub_DFP_on = true; 
+
+            var idSandboxTinypass = "GTCopIDc5z";
+            var setSandBox = "false";
+            var urlSandboxPiano = "https://experience.tinypass.com/xbuilder/experience/load?aid=GTCopIDc5z";
+
+</script>
+
+    </head>
+    <body id="home" class="">
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-55NG4R"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-55NG4R');</script>
+        <!-- End Google Tag Manager -->
+
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                  appId      : '226688420856372',
+                  xfbml      : true,
+                  version    : 'v2.3'
+                });
+            };
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/pt_BR/sdk.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div class="globocom robots-nocontent robots-noindex"></div>
+
+        <!-- Inicio barra Utilizando o mesmo conteudo dinamico do Noblat -->
+        
+                   <div class="urls-editoria-principal">
+        <nav class="navegacao-lateral">
+          <script id="navegacaoLateral-template" type="text/x-handlebars-template">
+                <div class="menu-container">
+                  <ul class="menu">
+                    {{#each menu}}
+                      {{#if subeditorias}}
+                        <li class="mais-editorias">
+                          <a href="{{link}}">{{texto}}</a>
+                          <div class="submenu-container">
+                            <i></i>
+                            <ul class="submenu">
+                              {{#each subeditorias}}
+                                <li><a href="{{link}}">{{texto}}</a></li>
+                              {{/each}}
+                            </ul>
+                          </div>
+                        </li>
+                      {{else}}
+                        <li><a href="{{link}}">{{texto}}</a></li>
+                      {{/if}}
+                    {{/each}}
+                  </ul>
+
+        </script>
+              </nav>
+              <div id="compartilhar">
+                <ul style="list-style-type:none">
+                  <li id="recomendar"><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Foglobo.globo.com" title=""></a></li>
+                  <li id="twitter"><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Foglobo.globo.com" target="blank" title=""></a></li>
+                  <li id="googlePlus"><a href="https://plus.google.com/share?hl=en-US&url=http://oglobo.globo.com/" title=""></a></li>
+                </ul>
+              </div>
+          </div>
+
+      <div id="menu-editoria" class="navegacao-central">
+    <script id="navegacaoCentral-template" type="text/x-handlebars-template">
+        <div class="row">
+          <div class="large-16 columns">
+            <div class="row">
+              <div class="large-3 columns secoes">
+                <h3 id="bt-editoria-interno" class="clearfix"><a href="http://oglobo.globo.com/brasil/" class="inner-editoria" title="Brasil"> <i class="fa fa-angle-right"></i></a><a href="http://oglobo.globo.com/brasil/" title="Brasil"><span>Ir para a página</span></a></h3>
+                <ul>
+                  {{#each subeditorias}}
+                    <li><a href="{{url}}" title="{{titulo}}">{{titulo}}</a></li>
+                  {{/each}}
+                </ul>
+              </div>
+              <div class="large-9 columns assunto-destaque">
+                <h3>Assuntos em destaque</h3>
+                <div class="row">
+                  {{#each destaques}}
+                    <div class="large-5 {{tipo}} columns">
+                      <img src="{{imagem}}">
+                      <a href="{{url}}" title="">{{titulo}}</a>
+                      <p class="subtitulo">{{subtitulo}}</p>
+                    </div>
+                  {{/each}}
+                  <div class="large-6 columns">
+                    <ul>
+                      {{#each outrosDestaques}}
+                        <li><a href="{{url}}" title="">{{titulo}}</a></li>
+                      {{/each}}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="large-4 columns fotos-dia">
+                {{#if fotogaleria.imagem }}
+        <h3>Fotos do Dia</h3>
+                <div class="foto-legenda">
+                  <a href="{{fotogaleria.url}}" title="">
+                    <img src="{{fotogaleria.imagem}}">
+                    <span>{{fotogaleria.titulo}}</span>
+                  </a>
+                </div>
+        {{/if}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+      {{#if topicos }}
+          <div class="large-13 large-offset-3 columns">
+            <div class="artigo-topicos clearfix">
+              <div>
+                <ul class="clearfix">
+                  <li>T&oacute;picos</li>
+          {{#each topicos}}
+                  <li><a href="{{url}}" title="">{{titulo}}</a></li>
+          {{/each}}
+                </ul>
+              </div>
+            </div>
+          </div>
+      {{/if}}
+        </div>
+    </script>
+  </div>
+  </div>
+  <div class="search-overlay" style="display: none;"></div>
+<script>
+(function($){
+       if((/^blogs/i).test(location.host)){
+    if(barra_editoria.nome != "" && typeof barra_editoria.nome != "undefined"){
+        $('#bt-editoria').attr('data-editoria', barra_editoria.nome_formatado);
+        $('#bt-editoria').find('> a').attr('title', barra_editoria.nome).attr('href', 'http://oglobo.globo.com/'+ barra_editoria.nome_formatado).text(barra_editoria.nome);
+        setTimeout(function(){
+            $('#bt-editoria-interno a').attr('title', barra_editoria.nome).attr('href', 'http://oglobo.globo.com/'+ barra_editoria.nome_formatado);
+            $('#bt-editoria-interno a').eq(0).text(barra_editoria.nome);
+        }, 1800);
+    }
+}
+    $(document).ready(function(){
+            var current_url = window.location.href;
+        //if(current_url.match(/\/post\//) != null){
+            setTimeout(function(){
+                $('#recomendar > a').attr('href','http://www.facebook.com/sharer/sharer.php?u='+ current_url);
+                $('#twitter > a').attr('href','https://twitter.com/intent/tweet?url='+ current_url);
+                $('#googlePlus > a').attr('href','https://plus.google.com/share?hl=en-US&url='+ current_url);
+            }, 900);
+        //}
+    });
+})(jquery_1_7_2);
+</script>
+<script>
+var _barraclass=function(){var barra=document.getElementById("barra-globocom");if(barra) {barra.className+=" barra-globocom";}};window.onload=_barraclass;_barraclass();
+</script>
+
+<! -- novo menu oglobo -->
+<style>
+.urls-editoria-principal{
+  display:none !important;
+}
+</style>
+<style>
+.main-menu-editorias li a{
+text-decoration:none;
+}
+ .main-menu-blogs li a{
+text-decoration:none;
+}
+.main-menu-produtos__item a{
+text-decoration:none;
+}
+.relacionadas-visible #relacionadas-topo {
+    top: 44px !important;
+}
+.main-menu-produtos__item a{
+text-decoration:none;
+}
+.site-header__editorial-principles-topics {
+    display: none;
+}
+</style>
+<style>
+@media (max-width: 600px) 
+{
+.relacionadas-visible #relacionadas-topo {
+    top: 50px !important;
+}
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://oglobo.globo.com/styles/oglobo-header.css">
+<script type="text/javascript">
+var ogloboHeaderOptions =
+
+{ hasGloboComBar: true, env: 'PRD' }
+
+</script>
+<script type="text/javascript" src="https://oglobo.globo.com/1/scripts/oglobo-header.js" async></script>
+
+<script type="text/javascript" src="https://i.glbimg.com/og/ig/infoglobo1/static/_js/advertising.js" defer></script>
+
+
+
+        
+        <!-- fim barra Utilizando o mesmo conteudo dinamico do Noblat -->
+        
+            <div class="block__advertising slb-topo">
+       <p class="block__advertising--header">Publicidade</p>
+             <div  id="pub-slb-topo" class="block__advertising--content" data-oglobo-advertising-format="slb-topo">
+            </div>
+           <div  id="fullbanner" class="block__advertising--content" data-oglobo-advertising-format="fullbanner">
+            </div>
+</div>
+
+             
+            <section class="block__blogs">
+                    <div class="block__blogs-wrapper">
+                        <div class="block__blogs--title"><h1>Blogs e autores</h1></div>
+                    </div>
+            </section>
+			<!-- index_capa -->
+                <aside class="sidebar__index">
+                
+                </aside>
+
+            
+            
+                <!-- Start Tealium -->
+                <script>
+                    var tea_produto = "O Globo";
+                    var tea_tipo_pagina = "capa";
+                    var tea_editoria = "blogs";
+                    var tea_id_conteudo = "";
+                    var tea_entidades = [];
+                    var tea_topicos = "";
+                </script>
+                <!-- Loading script asynchronously -->
+                <script type="text/javascript">
+                    (function(a,b,c,d){
+                    a='//tags.tiqcdn.com/utag/globo/infoglobo.oglobo/prod/utag.js';
+                    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+                    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+                    })();
+                </script>
+                <!-- End Tealium -->
+            
+            
+                <script type="text/javascript">
+                    var utag_data = {
+                      produto : tea_produto,
+                      tipo_pagina : tea_tipo_pagina,
+                      editoria : tea_editoria,
+                      id_conteudo : tea_id_conteudo,
+                      entidades : tea_entidades,
+                      topicos : tea_topicos,
+                      pageLevelTargeting: {"ognCluster":[]}
+                    }
+                </script>
+            
+            <script>
+jquery_1_7_2.getQueryString = function(){
+        params = location.search;
+        if(params !== "" && params !== 'undefined'){
+            params = location.search.slice(1).split("&");
+            return params;
+        }
+        return []
+    };
+
+
+jquery_1_7_2.isApp = function(){
+        q = $.getQueryString();
+        for(var i = 0; i < q.length; i++){
+            if(q[i].search("^app=1$") > -1){
+                return true;
+            }
+        }
+        return false;
+    };
+</script>
+<script>
+        var OGserviceDomain = "https://oglobo.globo.com/";
+        var OGserviceUrl = OGserviceDomain + "menu.json";
+        var OGserviceData = "tipo=menu-editorias";
+        var OGserviceCallback = "json_menu_editorias_callback";
+
+        var blgServiceCallback= "blogs_editoria";
+
+        var kogutDescription = "Notícias, reportagens, entrevistas, fotos e vídeos sobre programas e audiências de televisão. Site da Patrícia Kogut, colunista do Jornal o Globo";
+        var noblatDescription = "Notícias, informações, entrevistas, crônicas, artigos, reportagens e furos sobre política, Câmara dos Deputados, Senado Federal e bastidores do governo. Site de Ricardo Noblat, colunista do jornal O Globo";
+        var deplayInitCapa = 800;
+</script>
+
+
+            <script src="https://i.glbimg.com/og/ig/infoglobo1/static/blog/_js/redesign2019/index-cover.js"></script>
+            <script src="https://i.glbimg.com/og/ig/infoglobo1/static/blog/js/publicidade_fixa.js"></script>
+        </section>
+
+        <!-- Inicio footer Utilizando o mesmo conteudo dinamico do Noblat -->
+        
+             <script type="text/javascript" src="https://oglobo.globo.com/1/scripts/oglobo-footer.js" async></script>
+
+<br>
+<div align="center" id="oglobo-shopping" style="margin-top: 1cm;">
+<script type="text/javascript" id="58e4059613df640004ace4c7" async>
+	if(!document.getElementById('58e4059613df640004ace4c7')) {
+		document.write('<div id="58e4059613df640004ace4c7"></div>');
+	}
+	var _aep = _aep || [];
+	(function(d, s, c) {
+		var getTimestamp = function() {
+			var date = new Date();
+			return ('00' + date.getFullYear()).slice(-2) +
+				('00' + date.getMonth()).slice(-2) +
+				('00' + date.getDate()).slice(-2);
+		};
+		_aep.push(['tag', '58e4059613df640004ace4c7', { /* add optional custom config here */ }]);
+		var f = d.createElement(s); f.src = (d.location.protocol == 'https:') ? c.replace('http:', 'https:').replace('//akfs', '//s-akfs') : c+ '?r=' + getTimestamp();
+		var e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(f, e);
+	})(document, 'script', '//akfs.nspmotion.com/aep/tag/ar/58e4059613df640004ace4c7.cfg.js');
+</script>
+</div>
+
+<style>
+.hide__it{
+display:none;
+}
+</style>
+
+<script id="correcao-kogut--outras-paginas">
+	window.onload = function () {
+		document.querySelectorAll('.other-pages__feed--columnist').forEach(item => {
+			let url = item.getAttribute('href')
+			if (url.match(/.*kogut/)) {
+				let img = `<img class="other-pages__feed--photo" src="https://s3.glbimg.com/v1/AUTH_0ae9f161c1ff459593599b7ffa1a1292/images/escenic/2019%2F12%2F27%2F15%2F1577471463478.png" alt="Foto da Patrícia Kogut">`
+				item.setAttribute('href', 'https://kogut.oglobo.globo.com/')
+				item.parentNode.insertAdjacentHTML('beforeEnd', img)
+			}
+		})
+	}
+
+document.querySelectorAll(".block__columnist--authors-social-icon.email a").forEach(email=>{
+    email.dataset.address = email.dataset.address.replace("::","@")
+})
+</script>
+
+        
+        <!-- fim footer Utilizando o mesmo conteudo dinamico do Noblat -->
+
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                  appId      : '1568258066757530',
+                  xfbml      : true,
+                  version    : 'v2.3'
+                });
+            };
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/pt_BR/sdk.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+           
+        </script>
+
+        <script> 
+(function() { 
+var s = document.createElement("script"); 
+s.type = "text/javascript"; s.async = true; s.charset = "utf-8"; 
+s.src = "https://s.glbimg.com/gl/ba/js/barra-globocom.min.js"; 
+var ss = document.getElementsByTagName("script")[0]; ss.parentNode.insertBefore(s, ss); 
+})();
+</script>
+
+
+
+    </body>
+</html>
