@@ -3,7 +3,7 @@ templateKey: blog-post
 title: "Pegadinhas 1º de Abril"
 author: admin
 date: 2009-04-02T06:55:51+11:00
-categories
+categories:
   - "Novidades"
 tags:
   - "ferramenta"

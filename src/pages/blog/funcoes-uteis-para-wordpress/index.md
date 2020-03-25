@@ -6,7 +6,7 @@ date: 2011-07-28T05:41:02+10:00
 categories:
   - "Wordpress"
 tags:
-  - "wordpress""
+  - "wordpress"
   - "get"
   - "wp_query"
   - "functions"

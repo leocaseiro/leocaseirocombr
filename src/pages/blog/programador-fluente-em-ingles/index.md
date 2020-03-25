@@ -3,7 +3,8 @@ templateKey: blog-post
 title: "Programador tem que ser fluente (English)"
 author: admin
 date: 2014-03-19T03:51:49+11:00
-categories: "Assuntos Gerais"
+categories:
+  - "Assuntos Gerais"
 slug: programador-fluente-em-ingles
 draft: false
 meta_title: "Programador tem que ser fluente (English)"
