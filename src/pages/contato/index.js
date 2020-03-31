@@ -44,6 +44,73 @@ export default class Index extends React.Component {
 				<div className="container">
 					<div className="content">
 						<h1>Contato</h1>
+						<div>
+							<p>
+								<strong>Favor leia antes de me enviar um contato!</strong>
+							</p>
+							<p>
+								Aqui é o <strong>Leo Caseiro</strong> e eu adoraria receber um contato seu, porém eu
+								estou focado em diversos projetos aqui na{' '}
+								<a
+									title="Sydney, Austrália"
+									href="http://pt.wikipedia.org/wiki/Sydney"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Austrália
+								</a>{' '}
+								e não estou conseguindo ajudar a comunidade como eu gostaria.
+							</p>
+							<p>
+								Caso precise de ajuda com WordPress, acesse o{' '}
+								<a
+									title="Fórum Oficial do WordPress em Português"
+									href="http://br.forums.wordpress.org/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Fórum oficial
+								</a>
+								! Tem muita gente que ajuda por lá mais rápido que eu. Quem sabe até a sua dúvida já foi
+								respondida por lá?
+							</p>
+							<p>
+								Se realmente decidir enviar um pedido de ajuda, me envie no mínimo, o Link do Seu post
+								no{' '}
+								<a
+									title="Fórum Oficial do WordPress em Poruguês"
+									href="http://br.forums.wordpress.org/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Fórum do WordPress
+								</a>
+								&nbsp;com o seu código no{' '}
+								<a
+									title="pastebin"
+									href="http://pastebin.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									pastebin
+								</a>
+								, vai me ajudar muito.
+							</p>
+							<p>
+								Leia:{' '}
+								<a
+									href="http://imasters.com.br/gerencia-de-ti/mercado/por-que-voce-deveria-parar-de-fazerresponder-perguntas-tecnicas-via-redes-sociais/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									http://imasters.com.br/gerencia-de-ti/mercado/por-que-voce-deveria-parar-de-fazerresponder-perguntas-tecnicas-via-redes-sociais/
+								</a>
+							</p>
+							<p>
+								Abraços <br />
+								<br /> <br />
+							</p>
+						</div>
 						<form
 							name="contato"
 							method="post"
