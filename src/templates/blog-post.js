@@ -10,7 +10,6 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   date,
-  description,
   categories,
   tags,
   title,
@@ -26,7 +25,6 @@ export const BlogPostTemplate = ({
 					<div className="column is-10 is-offset-1">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
 						<small style={{ marginBottom: `3rem` }} className="is-block mb-2">publicado em {date}</small>
-						<p>{description}</p>
 						<PostContent content={content} />
 						{categories && categories.length ? (
 							<div style={{ marginTop: `4rem` }}>
@@ -62,7 +60,6 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -76,14 +73,9 @@ const BlogPost = ({ data }) => {
         date={post.frontmatter.date}
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Leo Caseiro">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
           </Helmet>
         }
         categories={post.frontmatter.categories}
@@ -110,7 +102,6 @@ export const pageQuery = graphql`
 					frontmatter {
 						date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-BR")
 						title
-						description
 						tags
 						categories
 					}
