@@ -33,26 +33,25 @@ No Tutorial, estou utilizando a **versão 2.7 do WordPress**, mas seguindo minha
 
 Após estar Logado em seu wp-admin, clique em Configurações(em algumas traduções você irá clicar em Opções).
 
-![Menu Configurações do WordPress 2.7](./menu-configuracoes-wordpress1.jpg "Menu de configurações do WordPress")
+[![Menu Configurações do WordPress 2.7](/img/permalinks-wordpress/menu-configuracoes-wordpress1.jpg "Menu de configurações do WordPress")](/img/permalinks-wordpress/menu-configuracoes-wordpress1.jpg "Menu de configurações do WordPress")
 
-![Escolha Links Permanentes no menu Configurações](./links-permanentes-menu-configuracoes-wp.jpg "Links Permanentes no Menu Configurações do WordPress")
-Links Permanentes no Menu Configurações do WordPress
+[![Escolha Links Permanentes no menu Configurações](/img/permalinks-wordpress/links-permanentes-menu-configuracoes-wp.jpg "Links Permanentes no Menu Configurações do WordPress")](/img/permalinks-wordpress/links-permanentes-menu-configuracoes-wp.jpg "Links Permanentes no Menu Configurações do WordPress")
 
 Perceba que o padrão é a opção: `http://www.meusite.com.br/?p=123`:<br>
-[![Links Permanentes - Padrão ?p=123](./permalinks-wp-configuracoes-300x131.jpg "Links Permanentes - Padrão ?p=123")](./permalinks-wp-configuracoes.jpg "Links Permanentes - Padrão ?p=123")
+[![Links Permanentes - Padrão ?p=123](./permalinks-wp-configuracoes-300x131.jpg "Links Permanentes - Padrão ?p=123")](/img/permalinks-wordpress/permalinks-wp-configuracoes.jpg "Links Permanentes - Padrão ?p=123")
 
 Você pode escolher a opção **Mês e nome** ou **Dia e nome**, ideais para blogs de notícias, em que a data é importante. E útil deixá-la na própria URL. Assim, o usuário poderá identificar se o post é antigo ou atual.
-[![Permalink Mês e Nome pelo WordPress](./permalink-mes-nome-wordpress-300x115.jpg "Permalink Mês e Nome pelo WordPress")](./permalink-mes-nome-wordpress.jpg "Permalink Mês e Nome pelo WordPress")
+[![Permalink Mês e Nome pelo WordPress](./permalink-mes-nome-wordpress-300x115.jpg "Permalink Mês e Nome pelo WordPress")](/img/permalinks-wordpress/permalink-mes-nome-wordpress.jpg "Permalink Mês e Nome pelo WordPress")
 
 Perceba, que ao selecionar as opções você pode alterar a Estrutura Personalizada.
-[![Permalinks Personalizados no WordPress](./permalinks-excluir-ano-mes-300x119.jpg "Permalinks Personalizados no WordPress")](./permalinks-excluir-ano-mes.jpg "Permalinks Personalizados no WordPress")
+[![Permalinks Personalizados no WordPress](./permalinks-excluir-ano-mes-300x119.jpg "Permalinks Personalizados no WordPress")](/img/permalinks-wordpress/permalinks-excluir-ano-mes.jpg "Permalinks Personalizados no WordPress")
 
 A **minha recomendação é deixar apenas _/%postname%/_**
-[![Permalink recomendado para o WordPress](./permalink-ideal-wordpress-300x116.jpg "Permalink recomendado para o WordPress")](./permalink-ideal-wordpress.jpg "Permalink recomendado para o WordPress")
+[![Permalink recomendado para o WordPress](./permalink-ideal-wordpress-300x116.jpg "Permalink recomendado para o WordPress")](/img/permalinks-wordpress/permalink-ideal-wordpress.jpg "Permalink recomendado para o WordPress")
 
 Antigamente, quando utilizava o domínio _.com_, deixei os permalinks com _.html_. Mas com o tempo percebi que atrapalha a leitura e também dificulta a memorização.<br>
 Não pense que a indexação do Google para SEO é melhor com _.html_ que não é verdade.<br>
-[![Permalinks com .html no WordPress](./permalink-html-wordpress-300x115.jpg "Permalinks com .html no WordPress")](./permalink-html-wordpress.jpg "Permalinks com .html no WordPress")
+[![Permalinks com .html no WordPress](./permalink-html-wordpress-300x115.jpg "Permalinks com .html no WordPress")](/img/permalinks-wordpress/permalink-html-wordpress.jpg "Permalinks com .html no WordPress")
 
 Você também pode incluir o nome da **categoria na URL do post**. Muito útil para blogs que possuem muitos assuntos. Imagine que você tenha uma seção de esportes e outra de música.<br>
 E queira fazer um post sobre o Roberto Carlos(cantor ou jogador?)<br>
@@ -61,14 +60,14 @@ Não seria interessante as URLs:<br>
 e<br>
 `http://www.meusite.com.br/musica/roberto-carlos/`<br>
 Para isso, basta inserir, a variável **%category%** antes da barra do seu **/%postname%/**, conforme o meu exemplo:
-[![Permalinks com a Categoria e Nome do Post no WordPress](./permalink-categoria-nome-post-wp-300x117.jpg "Permalinks com a Categoria e Nome do Post no WordPress")](./permalink-categoria-nome-post-wp.jpg "Permalinks com a Categoria e Nome do Post no WordPress")
+[![Permalinks com a Categoria e Nome do Post no WordPress](./permalink-categoria-nome-post-wp-300x117.jpg "Permalinks com a Categoria e Nome do Post no WordPress")](/img/permalinks-wordpress/permalink-categoria-nome-post-wp.jpg "Permalinks com a Categoria e Nome do Post no WordPress")
 
 Se quiser customizar sua URL com o nome do autor do post, utilize **%author%**
 
 Mais customizações pela Documentação do WordPress sobre [Using Permalinks](http://codex.wordpress.org/Using_Permalinks "Usando Permalinks do WordPress")
 
 <span style="color: #800000;">Muitos blogueiros alteram o nome de suas URLs e acabam se esquecendo de “traduzir” **o category**(valor padrão para categorias) **para categoria**. O local para esta tarefa é em **Base da categoria**.<br>
-[![Permalink da Base de Categorias no WordPress](./permalink-categorias-wordpress-300x68.jpg "Permalink da Base de Categorias no WordPress")](./permalink-categorias-wordpress.jpg "Permalink da Base de Categorias no WordPress")</span>
+[![Permalink da Base de Categorias no WordPress](./permalink-categorias-wordpress-300x68.jpg "Permalink da Base de Categorias no WordPress")](/img/permalinks-wordpress/permalink-categorias-wordpress.jpg "Permalink da Base de Categorias no WordPress")</span>
 
 Em alguns servidores, será necessário incluirmos um arquivo **.htaccess**.<br>
 O próprio WordPress costuma nos informar e ainda disponibiliza uma caixa de texto com conteúdo deste arquivo.

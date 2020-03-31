@@ -17,7 +17,7 @@ O [Pedro postou no Pinceladas da Web](http://www.pinceladasdaweb.com.br/blog/200
 
 A divulgação feita pelo Imasters no Twitter mostra que a equipe criou um widget feito em javascript. Este script insere uma barra no topo do site(sem danificar o Layout, óbvio). A barra, conforme a imagem ilustrativa abaixo, exibe um link para todas as versões mais atualizadas dos navegadores.
 
-[![Imagem da Barra do Imasters: Atualize seu navegador](./atualize-navegador-campanha-imasters-300x12.gif "Imagem da Barra do Imasters: Atualize seu navegador")](./atualize-navegador-campanha-imasters1.gif "Imagem da Barra do Imasters: Atualize seu navegador")
+[![Imagem da Barra do Imasters: Atualize seu navegador](./atualize-navegador-campanha-imasters-300x12.gif "Imagem da Barra do Imasters: Atualize seu navegador")](/img/atualize-navegador-script-imasters/atualize-navegador-campanha-imasters1.gif "Imagem da Barra do Imasters: Atualize seu navegador")
 
 O Imasters fez a parte deles! Agora vamos fazer a nossa. Você que é desenvolvedor coloque este script em todo site que construir. Assim, ajudaremos com o diminuição de usuários que utilizam browsers antigos, principalmente o IE6.
 

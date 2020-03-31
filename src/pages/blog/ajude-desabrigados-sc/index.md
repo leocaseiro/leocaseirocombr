@@ -17,7 +17,7 @@ Um blog que ensina os blogueiros a ganharem dinheiro, e agora [está movendo uma
 
 Você já se imaginou nesta situação?
 
-![Desabrigados em Santa Catarina](./129_2319-floripachuva.jpg "Desabrigados em Santa Catarina")
+![Desabrigados em Santa Catarina](/img/ajude-desabrigados-sc/129_2319-floripachuva.jpg "Desabrigados em Santa Catarina")
 _Desabrigados em Santa Catarina_
 
 
