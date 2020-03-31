@@ -7,57 +7,73 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  date,
-  description,
-  categories,
-  tags,
-  title,
-  helmet,
-}) => {
-  const PostContent = contentComponent || Content
+			content,
+			contentComponent,
+			date,
+			description,
+			categories,
+			tags,
+			title,
+			helmet,
+			pageContext,
+		}) => {
+	const PostContent = contentComponent || Content;
+	const { previousPagePath, nextPagePath, previousItem, nextItem } = pageContext;
 
-  return (
-		<section className="section">
-			{helmet || ''}
-			<div className="container content">
-				<div className="columns">
-					<div className="column is-10 is-offset-1">
-						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
-						<small style={{ marginBottom: `3rem` }} className="is-block mb-2">publicado em {date}</small>
-						<p>{description}</p>
-						<PostContent content={content} />
-						{categories && categories.length ? (
-							<div style={{ marginTop: `4rem` }}>
-								<h4>Categorias</h4>
-								<ul className="taglist">
-									{categories.map(category => (
-										<li key={category + `category`}>
-											<Link to={`/categoria/${kebabCase(category)}/`}>{category}</Link>
-										</li>
-									))}
-								</ul>
+			return (
+				<section className="section">
+					{helmet || ''}
+					<div className="container content">
+						<div className="columns">
+							<div className="column is-10 is-offset-1">
+								<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
+								<small style={{ marginBottom: `3rem` }} className="is-block mb-2">
+									publicado em {date}
+								</small>
+								<p>{description}</p>
+								<PostContent content={content} />
+								{categories && categories.length ? (
+									<div style={{ marginTop: `4rem` }}>
+										<h4>Categorias</h4>
+										<ul className="taglist">
+											{categories.map(category => (
+												<li key={category + `category`}>
+													<Link to={`/categoria/${kebabCase(category)}/`}>{category}</Link>
+												</li>
+											))}
+										</ul>
+									</div>
+								) : null}
+								{tags && tags.length ? (
+									<div style={{ marginTop: `4rem` }}>
+										<h4>Tags</h4>
+										<ul className="taglist">
+											{tags.map(tag => (
+												<li key={tag + `tag`}>
+													<Link to={`/tag/${kebabCase(tag)}/`}>{tag}</Link>
+												</li>
+											))}
+										</ul>
+									</div>
+								) : null}
 							</div>
-						) : null}
-						{tags && tags.length ? (
-							<div style={{ marginTop: `4rem` }}>
-								<h4>Tags</h4>
-								<ul className="taglist">
-									{tags.map(tag => (
-										<li key={tag + `tag`}>
-											<Link to={`/tag/${kebabCase(tag)}/`}>{tag}</Link>
-										</li>
-									))}
-								</ul>
-							</div>
-						) : null}
+						</div>
+						<div className="columns">
+							{previousPagePath ? (
+								<Link className="column is-6" to={pageContext.previousPagePath}>
+									{previousItem.node.frontmatter.title}
+								</Link>
+							) : null}
+							{nextPagePath ? (
+								<Link className="column is-6 align-right" to={pageContext.nextPagePath}>
+									{nextItem.node.frontmatter.title}
+								</Link>
+							) : null}
+						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-  );
-}
+				</section>
+			);
+		};
 
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -67,7 +83,7 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -76,7 +92,8 @@ const BlogPost = ({ data }) => {
         date={post.frontmatter.date}
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+		description={post.frontmatter.description}
+		pageContext={pageContext}
         helmet={
           <Helmet titleTemplate="%s | Leo Caseiro">
             <title>{`${post.frontmatter.title}`}</title>
@@ -103,8 +120,8 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-			query BlogPostByID($id: String!) {
-				markdownRemark(id: { eq: $id }) {
+			query BlogPostByID($pageId: String!) {
+				markdownRemark(id: { eq: $pageId }) {
 					id
 					html
 					frontmatter {
