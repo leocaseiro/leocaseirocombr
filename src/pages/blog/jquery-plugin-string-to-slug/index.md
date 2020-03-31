@@ -15,105 +15,102 @@ draft: false
 meta_title: "jQuery Plugin stringToSlug"
 ---
 
-O plugin **jQuery stringToSlug** serve para criar URL AMIGÁVEIS (SLUG), conhecidas como permalinks.
+O plugin **jQuery stringToSlug** serve para criar [URL AMIGÁVEIS (SLUG)](http://leocaseiro.com.br/permalinks-wordpress/), conhecidas como [permalinks](http://leocaseiro.com.br/permalinks-wordpress/).
 
 > #### Download no GitHub (migrado para o GitHub em 26/07/2011)
 >
 > > Acesse pelo link [http://leocaseiro.github.io/jQuery-Plugin-stringToSlug/](http://leocaseiro.github.io/jQuery-Plugin-stringToSlug/ "Usaje jQuery Plugin StringToSlug")
 >
->  [![](./js.gif) jquery.stringToSlug.js 1.3](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug/archive/1.3.zip "Download jQuery stringToSlug Plugin")
->
-> [jQuery stringToSlug Plugin no GitHub para quem quiser contribuir](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug "jQuery stringToSlug Plugin no github")
+> * [jquery.stringToSlug.js 1.3](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug/archive/1.3.zip "Download jQuery stringToSlug Plugin")
+> * [jQuery stringToSlug Plugin no GitHub para quem quiser contribuir](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug "jQuery stringToSlug Plugin no github")
 
 Depois de muito pesquisar um **Plugin em jQuery** que fizesse isso, encontrei muitos que funcionam para outros idiomas. Mas somente para idiomas que não possuem acentuação.
 
-_JQUERY SLUG PLUGIN (PT-BR Special Chars Replaces)
-JQUERY SIMPLESLUG (PT-BR Special Chars Replaces)_
+_JQUERY SLUG PLUGIN (PT-BR Special Chars Replaces)_<br>
+_JQUERY SIMPLESLUG (PT-BR Special Chars Replaces)_
 
 **<span style="font-weight: normal;">Por isso, fiz questão de estudar as melhores features dos 2 plugins, e obviamente, que funcionasse em</span> Português do Brasil** \[**PT-BR**\].
 
-> #### Demo
->
-> **Preview:** _altere-o-texto-deste-campo_
+> #### [Demo](http://leocaseiro.github.io/jQuery-Plugin-stringToSlug/)
 
 Abaixo, segue a documentação em Inglês, pois pretendo disponibilizar no site da jQuery.
 
 #### Default Usage:
 
-\[sourcecode language='javascript'\]
-/\*\*
-\* Default Events: Blur, KeyUp e KeyDown:
-\* Default Get Put: #permalink
-\* Default Space Replacement: - (hiphen)
-\*/
+```javascript
+/**
+* Default Events: Blur, KeyUp e KeyDown:
+* Default Get Put: #permalink
+* Default Space Replacement: - (hiphen)
+*/
 $(document).ready( function() {
-$("#string").stringToSlug();
+  $("#string").stringToSlug();
 });
-\[/sourcecode\]
+```
 
 #### The values Default at Plugin Usage:
 
-\[sourcecode language='javascript'\]
+```javascript
 $(document).ready( function() {
-$("#title").stringToSlug({
-setEvents: 'keyup keydown blur',
-getPut: '#permalink',
-space: '-'
+  $("#title").stringToSlug({
+    setEvents: 'keyup keydown blur',
+    getPut: '#permalink',
+    space: '-'
+  });
 });
-});
-\[/sourcecode\]
+```
 
 #### Other(s) Event(s) Usage:
 
 Para alterar os eventos, devemos inserir 1 ou mais eventos, separados por epaço:
-\[sourcecode language='javascript'\]
+```javascript
 $(document).ready( function() {
-//Only Event Blur
-$("#only-blur-event").stringToSlug({
-setEvents: "blur"
-);
+  //Only Event Blur
+  $("#only-blur-event").stringToSlug({
+    setEvents: "blur"
+  );
 
-//2 Events or More
-//This sample, Usage Events: KeyUp and KeyDown
-$("#keyup-and-keydown-events").stringToSlug({
-setEvents: "keyup keydown"
-);
+  //2 Events or More
+  //This sample, Usage Events: KeyUp and KeyDown
+  $("#keyup-and-keydown-events").stringToSlug({
+    setEvents: "keyup keydown"
+  );
 });
-\[/sourcecode\]
+```
 
 #### Other Get Put Preview Usage:
 
-\[sourcecode language='javascript'\]
+```javascript
 $(document).ready( function() {
-//Previem in all texarea
-$("input\[name=string\]").stringToSlug({
-getPut: "textarea"
-);
+  //Previem in all texarea
+  $("input[name=string]").stringToSlug({
+    getPut: "textarea"
+  );
 
-//Preview in all elements preview class
-$("#input\[name=string\]").stringToSlug({
-getPut: ".class"
-);
+  //Preview in all elements preview class
+  $("#input[name=string]").stringToSlug({
+    getPut: ".class"
+  );
 });
-\[/sourcecode\]
+```
 
-#### Replace hiphen by other char Usage:
+#### Replace dash by other char Usage:
 
-\[sourcecode language='javascript'\]
+```javascript
 $(document).ready( function() {
-//Replace by underscore
-$("#input\[name=string\]").stringToSlug({
-space: "\_"
-);
+  //Replace by underscore
+  $("#input[name=string]").stringToSlug({
+    space: "_"
+  );
 });
-\[/sourcecode\]
-Dúvidas e/ou sugestões, favor informar nos comentários.
+```
+Dúvidas e/ou sugestões, favor informar nos comentários.<br>
 Melhorias na documentação são bem vindas.
 
 > Se este plugin é útil para você, por favor dê um feedback votando no site do jQuery:
 > [http://plugins.jquery.com/project/stringToSlug](http://plugins.jquery.com/project/stringToSlug "jQuery Plugin strinToSlug")
 
-> #### Versão Server Side em PHP
+> #### Versão Server Side em PHP<br>
 >
-> atualizado em 25 de Julho de 2010
+> <small>atualizado em 25 de Julho de 2010</small><br>
 > Para visualizar e efetuar o download da Classe em PHP que faz o mesmo que este plugin, acesse o link da [Classe StringToSlug PHP](http://leocaseiro.com.br/classe-stringtoslug-php)

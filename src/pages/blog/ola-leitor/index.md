@@ -19,10 +19,10 @@ Você encontrará informações sobre linguagens de programação, como [PHP](ht
 
 Banco de Dados: [MySQL](http://www.mysql.com/), [XML](http://pt.wikipedia.org/wiki/Xml)
 [Frameworks](http://pt.wikipedia.org/wiki/Framework): [jQuery](http://jquery.com/), [CodeIgniter](http://www.codeigniter.com.br/manual/)
-[CMS](http://pt.wikipedia.org/wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo): [Wordpress](http://br.wordpress.org)
+[CMS](http://pt.wikipedia.org/wiki/Sistema_de_gerenciamento_de_conte%C3%BAdo): [WordPress](http://br.wordpress.org)
 
 Entre outras técnicas e teorias que conheço!
 
 Abraços,
 
-Leo Caseiro
+[Leo Caseiro](http://leocaseiro.com.br/sobre)

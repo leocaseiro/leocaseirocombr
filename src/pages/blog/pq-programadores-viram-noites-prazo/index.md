@@ -23,7 +23,7 @@ O cliente entra em contato com a área de atendimento da agência, super acelera
 
 Então é aquela correria para entregar uma criação de qualidade e eficiência para satisfazer o cliente fiel à agência.
 
-O D.A. liga para o profissional de arquitetura de informação, que liga para o programador(o mesmo já elimina diversas pirações do D.A. que jamais podem ser programadas neste curto prazo). Enfim, a criação envia uma peça para aprovação para o cliente.
+O D.A.(Diretor de Arte) liga para o profissional de arquitetura de informação, que liga para o programador(o mesmo já elimina diversas pirações do D.A. que jamais podem ser programadas neste curto prazo). Enfim, a criação envia uma peça para aprovação para o cliente.
 
 O cliente, após ligar para o atendimento insistentemente recebe por email a peça que deverá ser aprovada antes da integração. No corpo do email, é estipulado um prazo(levando em consideração os JOBs que estão em andamento Hoje).
 

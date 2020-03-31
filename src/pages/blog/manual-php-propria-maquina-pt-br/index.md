@@ -32,9 +32,11 @@ Caso você queira o arquivo em outro idioma clique no link abaixo:
 
 > **Atenção: Caso o seu arquivo não abrir ou exibir algo como "A página não pode ser exibida", então clique com o botão direito do mouse e clique em Desbloquear.**
 
-\[caption id="attachment\_305" align="alignnone" width="220" caption="Desbloqueando o Arquivo de Ajuda"\][![Desbloqueando o Arquivo de Ajuda do PHP](./desbloquear-arquivo-ajuda-220x300.jpg "Desbloqueando o Arquivo de Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/desbloquear-arquivo-ajuda1.jpg "Desbloqueando o Arquivo de Ajuda do PHP")\[/caption\]
+[![Desbloqueando o Arquivo de Ajuda do PHP](./desbloquear-arquivo-ajuda-220x300.jpg "Desbloqueando o Arquivo de Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/desbloquear-arquivo-ajuda1.jpg "Desbloqueando o Arquivo de Ajuda do PHP")
+_Desbloqueando o Arquivo de Ajuda_
 
-\[caption id="attachment\_306" align="alignnone" width="220" caption="Arquivo de Ajuda do PHP desbloqueado"\][![Arquivo de Ajuda do PHP desbloqueado](./desbloquear-arquivo-ajuda-passo2-220x300.jpg "Arquivo de Ajuda do PHP desbloqueado")](http://leocaseiro.com.br/wp-content/uploads/2008/12/desbloquear-arquivo-ajuda-passo21.jpg "Arquivo de Ajuda do PHP desbloqueado")\[/caption\]
+[![Arquivo de Ajuda do PHP desbloqueado](./desbloquear-arquivo-ajuda-passo2-220x300.jpg "Arquivo de Ajuda do PHP desbloqueado")](http://leocaseiro.com.br/wp-content/uploads/2008/12/desbloquear-arquivo-ajuda-passo21.jpg "Arquivo de Ajuda do PHP desbloqueado")
+Arquivo de Ajuda do PHP desbloqueado
 
 **Obs: algumas funções ou referências ainda não foram 100% traduzidas.**
 
@@ -42,18 +44,23 @@ Abaixo deixo algumas dicas de como utilizar este manual como arquivo ajuda.
 
 Temos o Sumario que é praticamente a copia do site na web.
 
-\[caption id="attachment\_309" align="alignnone" width="300" caption="Sumário da Ajuda do PHP"\][![Sumário da Ajuda do PHP](./ajuda-php-sumario-indice-300x204.jpg "Sumário da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-sumario-indice1.jpg "Sumário da Ajuda do PHP")\[/caption\]
+[![Sumário da Ajuda do PHP](./ajuda-php-sumario-indice-300x204.jpg "Sumário da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-sumario-indice1.jpg "Sumário da Ajuda do PHP")
+Sumário da Ajuda do PHP
 
-\[caption id="attachment\_310" align="alignnone" width="300" caption="Navegando pelo Conteúdo da Ajuda do PHP"\][![Navegando pelo Conteúdo do Sumário da Ajuda do PHP](./ajuda-php-sumario-navegando-conteudo-300x204.jpg "Navegando pelo Conteúdo do Sumário da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-sumario-navegando-conteudo1.jpg "Navegando pelo Conteúdo do Sumário da Ajuda do PHP")\[/caption\]
+[![Navegando pelo Conteúdo do Sumário da Ajuda do PHP](./ajuda-php-sumario-navegando-conteudo-300x204.jpg "Navegando pelo Conteúdo do Sumário da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-sumario-navegando-conteudo1.jpg "Navegando pelo Conteúdo do Sumário da Ajuda do PHP")
+Navegando pelo Conteúdo da Ajuda do PHP
 
 Quando abrimos a ABA Índice, podemos utilizar como um auto-completar de todas as funções do PHP. É ótimo para lembrarmos o "resto" do nome daquela função.
-\[caption id="attachment\_311" align="alignnone" width="300" caption="Auto-Completar na Aba Índice pela Ajuda do PHP"\][![Auto-Completar na Aba Índice pela Ajuda do PHP](./ajuda-php-indice-auto-completar-300x204.jpg "Auto-Completar na Aba Índice pela Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-indice-auto-completar1.jpg "Auto-Completar na Aba Índice pela Ajuda do PHP")\[/caption\]
+[![Auto-Completar na Aba Índice pela Ajuda do PHP](./ajuda-php-indice-auto-completar-300x204.jpg "Auto-Completar na Aba Índice pela Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-indice-auto-completar1.jpg "Auto-Completar na Aba Índice pela Ajuda do PHP")
+Auto-Completar na Aba Índice pela Ajuda do PHP
 
 Algo que não poderia faltar é um sistema de Busca. Serve para quando não conseguir encontrar nada pelo Auto-completar. Este eu recomendo até utilizar antes do Google.
-\[caption id="attachment\_315" align="alignnone" width="300" caption="Resultados da pesquisa feita na Ajuda do PHP"\][![Resultados da pesquisa feita na Ajuda do PHP](./ajuda-php-resultados-pesquisa-300x204.jpg "Resultados da pesquisa feita na Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-resultados-pesquisa1.jpg "Resultados da pesquisa feita na Ajuda do PHP")\[/caption\]
+[![Resultados da pesquisa feita na Ajuda do PHP](./ajuda-php-resultados-pesquisa-300x204.jpg "Resultados da pesquisa feita na Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-resultados-pesquisa1.jpg "Resultados da pesquisa feita na Ajuda do PHP")
+Resultados da pesquisa feita na Ajuda do PHP
 
 E para finalizar, guarde as "páginas" mais utilizadas nos Favoritos. É bem no estilo Web2.0. Caso você queira guardar a página que está sendo visualizada. abra a aba Favoritos e clique lá embaixo à esquerda em Adicionar. Antes de adicionar você pode até alterar o nome que será exibido na sua lista. O mesmo poderá ser alterado ou excluído mais tarde.
-\[caption id="attachment\_316" align="alignnone" width="300" caption="Favoritos ou Bookmarks da Ajuda do PHP"\][![Favoritos ou Bookmarks da Ajuda do PHP](./ajuda-php-favoritos-300x204.jpg "Favoritos ou Bookmarks da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-favoritos1.jpg "Favoritos ou Bookmarks da Ajuda do PHP")\[/caption\]
+[![Favoritos ou Bookmarks da Ajuda do PHP](./ajuda-php-favoritos-300x204.jpg "Favoritos ou Bookmarks da Ajuda do PHP")](http://leocaseiro.com.br/wp-content/uploads/2008/12/ajuda-php-favoritos1.jpg "Favoritos ou Bookmarks da Ajuda do PHP")
+Favoritos ou Bookmarks da Ajuda do PHP
 
-> Saiba que o conteúdo é excelente para novatos(pois tem desde a história do PHP) até aos mais avançados(possui toda a documentação da linguagem).
+> Saiba que o conteúdo é excelente para novatos(pois tem desde a história do PHP) até aos mais avançados(possui toda a documentação da linguagem).<br>
 > Acreditem, descobri até que possui uma função chamada dotnet\_load(); Provavelmente o PHP roda até script em .NET.

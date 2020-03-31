@@ -25,9 +25,9 @@ Para isso, devemos utilizar a função **mb\_strlen()** que possui um **segundo 
 #### Solução
 
 Como sempre utilizo encoding **utf8** nos sites que desenvolvo, tanto no php/MySQL quanto no html, precisei trocar o strlen pelo **mb\_strlen():**
-\[sourcecode language='php'\]
-mb\_strlen($string\_utf8, 'utf8');
-\[/sourcecode\]
+```php
+mb_strlen($string_utf8, 'utf8');
+```
 
-Para mais informações sobre a função **mb\_stren()** acesse:
+Para mais informações sobre a função **mb\_stren()** acesse:<br>
 [http://us3.php.net/manual/en/function.mb-strlen.php](http://us3.php.net/manual/en/function.mb-strlen.php)

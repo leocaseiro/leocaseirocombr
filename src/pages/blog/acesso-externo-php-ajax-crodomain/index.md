@@ -27,14 +27,14 @@ Mas é muito fácil!
 Basta você utilizar o header do php, conforme o exemplo abaixo
 
 Neste exemplo, libero o acesso somente para um domínio específico:
-\[sourcecode language='php'\]
+```php
 header('Access-Control-Allow-Origin: http://dominio.com.br');
-\[/sourcecode\]
+```
 
 Neste exemplo, libero o acesso para qualquer domínio
-\[sourcecode language='php'\]
+```php
 header('Access-Control-Allow-Origin: \*');
-\[/sourcecode\]
+```
  
 
 E pronto! Basta acessar a url usando o método $.ajax, $.load, $.get do jQuery ou carregar o ajax da maneira que precisar.

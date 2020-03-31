@@ -12,7 +12,7 @@ draft: false
 meta_title: "Atualize seu navegador, Script do Imasters"
 ---
 
-Meu colega de trabalho, [Pedro Rogério](http://www.pinceladasdaweb.com.br/blog/ "Blog Pinceladas da Web"), acabou de me mostrar a última [twittada do Imasters](http://twitter.com/iMasters/status/1101851752 "Twittada do Imasters sobre a Campanha de atualização de Browsers").
+Meu colega de trabalho, [Pedro Rogério](http://www.pinceladasdaweb.com.br/blog/ "Blog Pinceladas da Web"), acabou de me mostrar a última [twittada do Imasters](http://twitter.com/iMasters/status/1101851752 "Twittada do Imasters sobre a Campanha de atualização de Browsers").<br>
 O [Pedro postou no Pinceladas da Web](http://www.pinceladasdaweb.com.br/blog/2009/01/05/2009-o-ano-em-que-o-ie6-faleceu/ "Post: 2009, o ano em que o IE6 faleceu") que o navegador IE6 está causando discórdia e desconforto desde 2001. Segundo a Astrologia, o ano 2009 determina o fim do uso do IE6. Espero que esteja certo.
 
 A divulgação feita pelo Imasters no Twitter mostra que a equipe criou um widget feito em javascript. Este script insere uma barra no topo do site(sem danificar o Layout, óbvio). A barra, conforme a imagem ilustrativa abaixo, exibe um link para todas as versões mais atualizadas dos navegadores.
@@ -29,4 +29,6 @@ E coloca logo no seu site, eu mesmo já coloquei. Tente acessar o LeoCaseiro.com
 
 O script para inserir a barra no site é:
 
-> <script src="http://imasters.uol.com.br/crossbrowser/fonte.js" type="text/javascript"></script>
+```javascript
+<script src="http://imasters.uol.com.br/crossbrowser/fonte.js" type="text/javascript"></script>
+```

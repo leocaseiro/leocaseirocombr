@@ -14,7 +14,7 @@ draft: false
 meta_title: "Solução em Javascript para Imagens inexistentes no servidor"
 ---
 
-Saiba como utilizar o **evento onerror do JavaScript** para substituir falhas de imagem(_<img>_) ou até janela(window).
+Saiba como utilizar o **evento onerror do JavaScript** para substituir falhas de imagem(`<img>`) ou até janela(`window`).
 
 Com certeza você já passou por algum deste problemas:  
 
@@ -26,20 +26,18 @@ Com certeza você já passou por algum deste problemas:  
 
 Comigo foi assim, estava criando uma galeria de vídeos que devia exibir um screenshot(na agência chamamos de _frame_), mas acontece que tínhamos alguns vídeos que ainda não possuíam o screenshot. E tendo todos os dados necessários para serem exibidos no site, menos o screenshot, deveriam ser listados na HOME.
 
-O que fazer neste caso?
-Criar um código php do tipo **if file\_exists()**?
+O que fazer neste caso?<br>
+Criar um código php do tipo `if file_exists()`?<br>
 Conheço uma opção melhor e nativa do JavaScript.
 
 **Evento OnError**
 
-Como funciona o evento OnError?
+Como funciona o evento OnError?<br>
 Funciona ao contrário do evento OnLoad que é a resposta de uma imagem (ou uma janela) que foi carregada com sucesso(ta aí o nome OnLoad = Carregou com Sucesso)
 
 Assim que o browser interpretar um erro de carregamento de uma imagem(também pode ser utilizado em um window, como uma PopUp), ele executa o método OnError.
 
 Como e onde utilizar o método OnError?
-\[sourcecode language='javascript'\]
-![](./imagem-nao-existe.gif)
-\[/sourcecode\]
-
-[Exemplo do evento OnError em funcionamento](http://exemplos.leocaseiro.com/imagem-inexistente-no-servidor.html "Exemplo do evento OnError funcionando").
+```javascript
+<img src="imagem-nao-existe.gif" onerror="this.onerror=null; this.src='thumb-video-default.jpg'" />
+```
