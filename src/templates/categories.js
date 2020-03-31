@@ -2,36 +2,37 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import { removePrefix } from '../helpers';
 
 class CategoriaRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
-        </Link>
-      </li>
-    ))
-    const categoria = this.props.pageContext.categoria
+      <li key={removePrefix(post.node.fields.slug)}>
+			<Link to={removePrefix(post.node.fields.slug)}>
+				<h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+			</Link>
+		</li>
+	));
+    const category = this.props.pageContext.category
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const categoriaHeader = `${totalCount} post${
+    const categoryHeader = `${totalCount} artigo${
       totalCount === 1 ? '' : 's'
-    } categoriaged with “${categoria}”`
+    } em “${category}”`
 
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`${categoria} | ${title}`} />
+          <Helmet title={`${category} | ${title}`} />
           <div className="container content">
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
                 style={{ marginBottom: '6rem' }}
               >
-                <h3 className="title is-size-4 is-bold-light">{categoriaHeader}</h3>
-                <ul className="categorialist">{postLinks}</ul>
+                <h3 className="title is-size-4 is-bold-light">{categoryHeader}</h3>
+                <ul className="categorylist">{postLinks}</ul>
                 <p>
                   <Link to="/categorias/">Ver todas as categorias</Link>
                 </p>
@@ -46,8 +47,8 @@ class CategoriaRoute extends React.Component {
 
 export default CategoriaRoute
 
-export const categoriaPageQuery = graphql`
-  query CategoriaPage($categoria: String) {
+export const categoryPageQuery = graphql`
+  query CategoriaPage($category: String) {
     site {
       siteMetadata {
         title
@@ -56,7 +57,7 @@ export const categoriaPageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: [$categoria] } } }
+      filter: { frontmatter: { categories: { in: [$category] } } }
     ) {
       totalCount
       edges {

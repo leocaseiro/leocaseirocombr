@@ -2,6 +2,7 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { removePrefix } = require('./helpers');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -30,17 +31,20 @@ exports.createPages = ({ actions, graphql }) => {
 			return Promise.reject(result.errors);
 		}
 
-		const posts = result.data.allMarkdownRemark.edges;
+		const posts_with_blog = result.data.allMarkdownRemark.edges;
+		const posts = posts_with_blog.map(edge => {
+			edge.node.fields.slug = removePrefix(edge.node.fields.slug);
+			return edge;
+		});
 
 		posts.forEach(edge => {
 			const id = edge.node.id;
+
 			createPage({
 				path: edge.node.fields.slug,
 				categories: edge.node.frontmatter.categories,
 				tags: edge.node.frontmatter.tags,
-				component: path.resolve(
-					`src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-				),
+				component: path.resolve(`src/templates/${String(edge.node.frontmatter.templateKey)}.js`),
 				// additional data can be passed via context
 				context: {
 					id,

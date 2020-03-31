@@ -1,5 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
+import Helmet from 'react-helmet';
 import Layout from '../../components/Layout'
 
 function encode(data) {
@@ -36,6 +37,9 @@ export default class Index extends React.Component {
   render() {
     return (
 		<Layout>
+			<Helmet titleTemplate="%s | Leo Caseiro">
+				<title>Contato</title>
+			</Helmet>
 			<section className="section">
 				<div className="container">
 					<div className="content">
@@ -52,7 +56,7 @@ export default class Index extends React.Component {
 							<input type="hidden" name="form-name" value="contato" />
 							<div hidden>
 								<label>
-									Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
+									Não preencha: <input name="bot-field" onChange={this.handleChange} />
 								</label>
 							</div>
 							<div className="field">

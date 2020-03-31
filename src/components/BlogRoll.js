@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { removePrefix } from '../helpers';
 
 class BlogRoll extends React.Component {
   render() {
@@ -9,50 +10,36 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
-            </div>
-          ))}
-      </div>
-    )
+		<div className="columns is-multiline">
+			{posts &&
+				posts.map(({ node: post }) => (
+					<div className="is-parent column is-12" key={post.id}>
+						<article className={`blog-list-item tile is-child box notification`}>
+							<header>
+								<p className="post-meta">
+									<Link
+										className="title has-text-primary is-size-4"
+										to={removePrefix(post.fields.slug)}
+									>
+										{post.frontmatter.title}
+									</Link>
+									<span> &bull; </span>
+									<small className="is-block">publicado em {post.frontmatter.date}</small>
+								</p>
+							</header>
+							<p>
+								{post.excerpt}
+								<br />
+								<br />
+								<Link className="button" to={removePrefix(post.fields.slug)}>
+									Continuar lendo →
+								</Link>
+							</p>
+						</article>
+					</div>
+				))}
+		</div>
+	);
   }
 }
 
@@ -65,30 +52,30 @@ BlogRoll.propTypes = {
 }
 
 export default () => (
-  <StaticQuery
-    query={graphql`
-      query BlogRollQuery {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
-  />
-)
+	<StaticQuery
+		query={graphql`
+			query BlogRollQuery {
+				allMarkdownRemark(
+					sort: { order: DESC, fields: [frontmatter___date] }
+					filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+				) {
+					edges {
+						node {
+							excerpt(pruneLength: 400)
+							id
+							fields {
+								slug
+							}
+							frontmatter {
+								title
+								templateKey
+								date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-BR")
+							}
+						}
+					}
+				}
+			}
+		`}
+		render={(data, count) => <BlogRoll data={data} count={count} />}
+	/>
+);

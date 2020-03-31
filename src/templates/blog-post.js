@@ -9,6 +9,7 @@ import Content, { HTMLContent } from '../components/Content'
 export const BlogPostTemplate = ({
   content,
   contentComponent,
+  date,
   description,
   categories,
   tags,
@@ -24,12 +25,13 @@ export const BlogPostTemplate = ({
 				<div className="columns">
 					<div className="column is-10 is-offset-1">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
+						<small style={{ marginBottom: `3rem` }} className="is-block mb-2">publicado em {date}</small>
 						<p>{description}</p>
 						<PostContent content={content} />
 						{categories && categories.length ? (
 							<div style={{ marginTop: `4rem` }}>
 								<h4>Categorias</h4>
-								<ul className="categorylist">
+								<ul className="taglist">
 									{categories.map(category => (
 										<li key={category + `category`}>
 											<Link to={`/categoria/${kebabCase(category)}/`}>{category}</Link>
@@ -71,11 +73,12 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <BlogPostTemplate
+        date={post.frontmatter.date}
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Leo Caseiro">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
@@ -83,6 +86,7 @@ const BlogPost = ({ data }) => {
             />
           </Helmet>
         }
+        categories={post.frontmatter.categories}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
@@ -99,17 +103,17 @@ BlogPost.propTypes = {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        title
-        description
-        tags
-        categories
-      }
-    }
-  }
-`
+			query BlogPostByID($id: String!) {
+				markdownRemark(id: { eq: $id }) {
+					id
+					html
+					frontmatter {
+						date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-BR")
+						title
+						description
+						tags
+						categories
+					}
+				}
+			}
+		`;
