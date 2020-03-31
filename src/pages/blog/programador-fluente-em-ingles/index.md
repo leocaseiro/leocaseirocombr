@@ -10,7 +10,7 @@ draft: false
 meta_title: "Programador tem que ser fluente (English)"
 ---
 
-Estudar! Estudar e estudar. Está parecendo que vou re-escrever aquele post de [Programador que precisa estudar todo dia,](http://leocaseiro.com.br/programador-web-estuda-mais-q-medico/ "Desenvolvedor Web precisa estudar mais do que Médico") toda hora.
+Estudar! Estudar e estudar. Está parecendo que vou re-escrever aquele post de [Programador que precisa estudar todo dia,](https://leocaseiro.com.br/programador-web-estuda-mais-q-medico/ "Desenvolvedor Web precisa estudar mais do que Médico") toda hora.
 
 Acredite!<br>
 Uma das melhores escolhas da minha carreira, foi dedicar-me um ano de intercâmbio aqui na Austrália para ficar fluente em inglês. Parei de programar e só foquei no idioma.

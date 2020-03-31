@@ -15,7 +15,7 @@ draft: false
 meta_title: "jQuery Plugin stringToSlug"
 ---
 
-O plugin **jQuery stringToSlug** serve para criar [URL AMIGÁVEIS (SLUG)](http://leocaseiro.com.br/permalinks-wordpress/), conhecidas como [permalinks](http://leocaseiro.com.br/permalinks-wordpress/).
+O plugin **jQuery stringToSlug** serve para criar [URL AMIGÁVEIS (SLUG)](https://leocaseiro.com.br/permalinks-wordpress/), conhecidas como [permalinks](https://leocaseiro.com.br/permalinks-wordpress/).
 
 > #### Download no GitHub (migrado para o GitHub em 26/07/2011)
 >
@@ -113,4 +113,4 @@ Melhorias na documentação são bem vindas.
 > #### Versão Server Side em PHP<br>
 >
 > <small>atualizado em 25 de Julho de 2010</small><br>
-> Para visualizar e efetuar o download da Classe em PHP que faz o mesmo que este plugin, acesse o link da [Classe StringToSlug PHP](http://leocaseiro.com.br/classe-stringtoslug-php)
+> Para visualizar e efetuar o download da Classe em PHP que faz o mesmo que este plugin, acesse o link da [Classe StringToSlug PHP](https://leocaseiro.com.br/classe-stringtoslug-php)

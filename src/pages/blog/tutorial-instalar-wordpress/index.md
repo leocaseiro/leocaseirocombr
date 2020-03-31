@@ -74,4 +74,4 @@ Agora, digite o endereço URL do seu BLOG e veja como ficou
 [![Como instalar WordPress no Servidor - Modelo de um Blog criado](./modelo-blog-wordpress-300x296.jpg "Como instalar WordPress no Servidor - Modelo de um Blog criado")](/img/tutorial-instalar-wordpress/modelo-blog-wordpress1.jpg "Como instalar WordPress no Servidor - Modelo de um Blog criado")
 
 Obs:Altere a sua senha o mais breve possível. Assim, você não corre o risco de perdê-la.<br>
-Para alterar a senha, leia [Como alterar a senha no wordpress](http://leocaseiro.com.br/tutorial-alterar-senha-wordpress "Como alterar a senha no wordpress").
+Para alterar a senha, leia [Como alterar a senha no wordpress](https://leocaseiro.com.br/tutorial-alterar-senha-wordpress "Como alterar a senha no wordpress").

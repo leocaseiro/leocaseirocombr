@@ -13,7 +13,7 @@ draft: false
 meta_title: "Como alterar a senha no wordpress"
 ---
 
-Para **alterar a senha do WordPress**, primeiramente precisamos logar. Lembre-se que o seu painel administrativo possui a URL de seu blog seguida de **/wp-admin**, exemplo: `http://leocaseiro.com.br/wp-admin/`
+Para **alterar a senha do WordPress**, primeiramente precisamos logar. Lembre-se que o seu painel administrativo possui a URL de seu blog seguida de **/wp-admin**, exemplo: `https://leocaseiro.com.br/wp-admin/`
 [![Área de Login do admin WordPress](./tutorial-wordpress-area-login-300x216.jpg "Área de Login do admin WordPress")](/img/tutorial-alterar-senha-wordpress/tutorial-wordpress-area-login1.jpg "Área de Login do admin WordPress")
 
 Assim, entramos no painel:<br />

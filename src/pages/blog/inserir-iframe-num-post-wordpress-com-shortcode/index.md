@@ -40,7 +40,7 @@ add_shortcode('iframe','iframe_shortcode');
 Para usar, basta seguir o exemplo abaixo e inserir no seu post:
 
 ```php
-[iframe url"http://leocaseiro.com.br/" width="500" height="300"]
+[iframe url"https://leocaseiro.com.br/" width="500" height="300"]
 ```
 
 Referência [graphicbeacon.com](http://www.graphicbeacon.com/web-design-development/embed-an-iframe-into-a-post-or-page-without-using-a-plugin/)

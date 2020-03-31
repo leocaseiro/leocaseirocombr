@@ -86,6 +86,6 @@ RewriteRule . /index.php [L]
 Caso tenha alguma dúvida, poste nos comentários.
 
 > Aproveito para pedir desculpas sobre minha ausência. Estou envolvido em 3 projetos grandes e como sempre o prazo é curto. Saibam que nem estou lendo meus feeds.<br>
-> Mas em breve, postarei mais informações sobre WordPress e o Zend Framework. O qual tenho me [dedicado muito tempo](http://leocaseiro.com.br/programador-web-estuda-mais-q-medico/ "Programador Web precisa estudar mais do que Médico").<br>
+> Mas em breve, postarei mais informações sobre WordPress e o Zend Framework. O qual tenho me [dedicado muito tempo](https://leocaseiro.com.br/programador-web-estuda-mais-q-medico/ "Programador Web precisa estudar mais do que Médico").<br>
 ><br>
 > Também deixarei dicas e tutoriais de tudo que aprendi no [Curso SEO](http://www.marketingdebusca.com.br/curso-seo/ "Curso SEO") do professor Paulo do [Marketing de Busca](http://www.marketingdebusca.com.br/ "Marketing de Busca"), e também autor do livro [Livro SEO Otimização de Sites](http://livroseo.com "Link permanente Livro SEO Otimização de Sites")(li e recomendo) e em breve deixarei informações e algumas dicas para otimização de sites.
