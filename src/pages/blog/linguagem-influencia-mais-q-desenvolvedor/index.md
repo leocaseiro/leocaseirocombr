@@ -52,10 +52,6 @@ E você? Já utiliza um FrameWork?
 
 Você tem preconceitos com alguma linguagem de Programação? Qual? Por quê?
 
-Dê uma olhada na apresentação de uma palestra do [Felipe Ribeiro](http://blog.feliperibeiro.com/ "Blog do Felipe Ribeiro") e deixe sua opinião nos comentários.
+Dê uma olhada na apresentação de uma palestra do [Felipe Ribeiro](https://twitter.com/felipernb "Felipe Ribeiro") e deixe sua opinião nos comentários.
 
-[PHP não é coisa de moleque](http://www.slideshare.net/felipernb/php-no-coisa-de-moleque-presentation?type=powerpoint "PHP não é coisa de moleque")
-
-View SlideShare [presentation](http://www.slideshare.net/felipernb/php-no-coisa-de-moleque-presentation?type=powerpoint "View PHP não é coisa de moleque on SlideShare") or [Upload](http://www.slideshare.net/upload?type=powerpoint) your own. (tags: [i-encontro-php-pb](http://slideshare.net/tag/i-encontro-php-pb) [evangelizacao](http://slideshare.net/tag/evangelizacao))
-
-![](http://counters.gigya.com/wildfire/IMP/CXNID=2000002.0NXC/bT*xJmx*PTEyMjk2OTk1NjU*MTUmcHQ9MTIyOTY5OTU3MTY2NSZwPTEwMTkxJmQ9Jmc9MiZ*PSZvPTU3MzUyMDc*M2U1YjQ1ODI4ZTFiZjE*OWNkZDIyZDFi.gif)
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/3OaEwzTtKaIkbX" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/vagner4work/php-no-coisa-de-moleque" title="PHP não é coisa de moleque" target="_blank">PHP não é coisa de moleque</a> </strong> por <strong><a href="https://twitter.com/felipernb" target="_blank" rel="noopener noreferrer">Felipe Ribeiro</a></strong> </div>
