@@ -18,10 +18,10 @@ A **função number_format() do PHP**, além de **trocar ponto(.) por vírgula(,
 O número que é em Inglês *999.9* fica *999,90* no formato moeda brasileiro.\
 Além disso, podemos definir se irá exibir algum caracter a cada grupo de milhar (de mil em mil).
 
-**string number_format ( float $number, int $decimals, string $dec_point, string $thousands_sep )**
+**`string number_format ( float $number, int $decimals, string $dec_point, string $thousands_sep )`**
 
 podemos definir por: \
-**valor texto number_format ( $valor_decimal, $casas_decimais, $caracter_definicao_decimal, $caracter_definicao_milhar )**\
+**`valor texto number_format ( $valor_decimal, $casas_decimais, $caracter_definicao_decimal, $caracter_definicao_milhar )`**\
 <br>
 
 Por exemplo, se quisermos que o número *1000* fique como *1.000*, utilizamos a função desta maneira:
