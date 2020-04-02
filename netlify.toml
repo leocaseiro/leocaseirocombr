@@ -5,3 +5,153 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+
+[[redirects]]
+  from = "/ajude-desabrigados-de-santa-catarina.html"
+  to = "/ajude-desabrigados-sc"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/atualizacao-do-wordpress-para-265.html"
+  to = "/plugin-firefox-atualizacao-wp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/atualize-seu-navegador-script-do-imasters.html"
+  to = "/atualize-navegador-script-imasters"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/como-alterar-a-senha-no-wordpress.html"
+  to = "/tutorial-alterar-senha-wordpress"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/como-chamar-um-javascript-externo-dentro-de-um-js-ou-script.html"
+  to = "/includes-js"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/como-instalar-wordpress-26-em-pt-br.html"
+  to = "/tutorial-instalar-wordpress"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/desculpas-ausencia-twitter-leocaseiro.html"
+  to = "/desculpas-ausencia-twitter-leocaseiro"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/deus-como-programador-agencia-publicidade.html"
+  to = "/deus-como-programador-agencia-publicidade"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/ferramentas-para-gestao-e-analise-de-um-web-site.html"
+  to = "/ferramentas-gestao-analise-site"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/formatar-moedas-ou-numeros-decimais-com-a-funcao-number_format-do-php.html"
+  to = "/moedas-decimais-funcao-number_format-php"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/funcao-que-ordena-arrays-randomicamente-em-javascript-como-o-shuffle-do-php.html"
+  to = "/shuffle-do-php-no-javascript"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/garoto-de-programa-ou-programador.html"
+  to = "/garoto-de-programa-ou-programador"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/golpe-para-roubar-senhas-do-banco-real-pelos-links-patrocinados-do-google.html"
+  to = "/golpe-banco-real-links-patrocinados"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/linguagem-influencia-mais-q-desenvolvedor.html"
+  to = "/linguagem-influencia-mais-q-desenvolvedor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/manual-do-php-na-propria-maquina-em-portugues-do-brasil.html"
+  to = "/manual-php-propria-maquina-pt-br"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/migrando-o-site-com-uma-pagina-de-construcao-por-htaccess.html"
+  to = "/migrando-o-site-com-uma-pagina-de-construcao-por-htaccess"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/ola-leitor.html"
+  to = "/ola-leitor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/pegadinhas-1-abril.html"
+  to = "/pegadinhas-1-abril"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/permalinks-wordpress.html"
+  to = "/permalinks-wordpress"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/porque-os-programadores-precisam-virar-noites-para-entregar-no-prazo.html"
+  to = "/pq-programadores-viram-noites-prazo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/programador-web-precisa-estudar-mais-do-que-medico.html"
+  to = "/programador-web-estuda-mais-q-medico"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/qual-arquivo-da-biblioteca-jquery-devo-utilizar.html"
+  to = "/melhor-arquivo-jquery-para-usar"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/solucao-em-javascript-para-imagem-inexistente-no-servidor.html"
+  to = "/evento-onerror-javascript-imagens-inexistentes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/trocando-o-this-do-php4-por-self-no-php5.html"
+  to = "/this-php4-para-self-php5"
+  status = 301
+  force = true
+
+[[redirects]]
+  from: "/voce-cobra-como-sobrinhos-para-construir-um-site.html"
+  to = "/nao-cobre-como-sobrinhos-p-construir-sites"
+  status = 301
+  force = true
