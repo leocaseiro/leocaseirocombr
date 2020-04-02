@@ -29,5 +29,5 @@ Como sempre utilizo encoding **utf8** nos sites que desenvolvo, tanto no php/MyS
 mb_strlen($string_utf8, 'utf8');
 ```
 
-Para mais informações sobre a função **mb\_stren()** acesse:<br>
+Para mais informações sobre a função **mb\_stren()** acesse:\
 [http://us3.php.net/manual/en/function.mb-strlen.php](http://us3.php.net/manual/en/function.mb-strlen.php)

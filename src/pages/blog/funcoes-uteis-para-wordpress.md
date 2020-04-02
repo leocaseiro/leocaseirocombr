@@ -22,7 +22,7 @@ Mas o que percebi, é que sempre utilizo 3 funções. E resolvi compartilhar, p
 
 As funções servem para habilitar o menu do WordPress, retornar o id pelo permalink(post\_name) e utilizar variáveis $\_GET com WordPress
 
-<br><br>
+\\
 
 #### Habilitar Administração de Menus pelo Admin do WordPress no _functions.php_
 
@@ -34,7 +34,7 @@ Quase todos os sites que eu faço, eu habilito os Menus do próprio WordPress. A
  */
 add_theme_support('menus');
 ```
-<br><br>
+\\
 
 #### Como retornar o id de um post pelo permalink(slug)?
 
@@ -50,7 +50,7 @@ function get_id_by_post_name($post_name)
 ```
 
 Para saber mais sobre os Menus Personalizados do WordPress, acesse a documentação do [wp\_nav\_menu()](http://codex.wordpress.org/Function_Reference/wp_nav_menu)
-<br><br>
+\\
 
 
 #### Como utilizar variáveis $_GET no WordPress?

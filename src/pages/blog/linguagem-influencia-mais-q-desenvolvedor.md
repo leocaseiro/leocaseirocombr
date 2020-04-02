@@ -24,18 +24,18 @@ Há uns dias atrás, o mesmo colega enviou o link de um post do José Milagre do
 
 Alguns programadores preconceituosos dizem que o PHP serve para trabalar com [POG](http://desciclo.pedia.ws/wiki/POG "Programação Orientada a Gambiarra"). Mas, você que programa em PHP se considera um moleque? Ou um programador que só faz gambiarras?
 
-Eu não!<br>
-Sempre modelo minhas [UMLs](http://pt.wikipedia.org/wiki/UML "external"), estou migrando agora para [MVC](http://pt.wikipedia.org/wiki/MVC "Model View Controller") com a ajuda dos FrameWorks(comecei pelo [CodeIgniter](http://www.codeigniter.com.br/manual/ "Manual do CodeIgniter traduzido para o Português"), mas estou querendo trabalhar com o [ZendFramework](http://framework.zend.com/ "Site Oficial do ZendFramework")).<br>
+Eu não!\
+Sempre modelo minhas [UMLs](http://pt.wikipedia.org/wiki/UML "external"), estou migrando agora para [MVC](http://pt.wikipedia.org/wiki/MVC "Model View Controller") com a ajuda dos FrameWorks(comecei pelo [CodeIgniter](http://www.codeigniter.com.br/manual/ "Manual do CodeIgniter traduzido para o Português"), mas estou querendo trabalhar com o [ZendFramework](http://framework.zend.com/ "Site Oficial do ZendFramework")).\
 E vão me dizer que é uma linguagem ruim, que só funciona com gambiarras ou é coisa de moleque?
 
-Saiba que um dos portais de mais acesso no mundo é feito em PHP, o famoso compartilhador de vídeos [YouTube](http://br.youtube.com/ "YouTube").<br>
-O [G1, portal de notícias da Rede Globo](http://g1.globo.com/ "G1, portal de notícias da Globo"), com um dos melhores conteúdos na rede utiliza [WordPress](http://br.wordpress.org/ "Site Oficial do WordPress do Brasil"), um CMS também em PHP, em muitos blogs(senão todos).<br>
-O mesmo CMS é utilizado no site do [Ministério da Cultura](http://www.cultura.gov.br/ "Ministério da Cultura").<br>
+Saiba que um dos portais de mais acesso no mundo é feito em PHP, o famoso compartilhador de vídeos [YouTube](http://br.youtube.com/ "YouTube").\
+O [G1, portal de notícias da Rede Globo](http://g1.globo.com/ "G1, portal de notícias da Globo"), com um dos melhores conteúdos na rede utiliza [WordPress](http://br.wordpress.org/ "Site Oficial do WordPress do Brasil"), um CMS também em PHP, em muitos blogs(senão todos).\
+O mesmo CMS é utilizado no site do [Ministério da Cultura](http://www.cultura.gov.br/ "Ministério da Cultura").\
 E milhares de outras ferramentas pela rede são criadas com o PHP.
 
 O Felipe faz uma brincadeira com um print do ORKUT(feito em .NET) que exibe um erro.
 
-Outro dia, recebi um email-marketing do maior e-commerce brasileiro, o Submarino e nele possuia um link que exibia erros absurdos em .net(até hoje [este link possui falhas](http://www.submarino.com.br/meusubmarino/?&franq=124945 "Link do Submarino com erro de .NET"), confira). A falha é tão grande que deixa à mostra o endereço completo de algumas DLLs.<br>
+Outro dia, recebi um email-marketing do maior e-commerce brasileiro, o Submarino e nele possuia um link que exibia erros absurdos em .net(até hoje [este link possui falhas](http://www.submarino.com.br/meusubmarino/?&franq=124945 "Link do Submarino com erro de .NET"), confira). A falha é tão grande que deixa à mostra o endereço completo de algumas DLLs.\
 Imagine quantas pessoas não encontraram este erro? O Mailing deles deve ser enorme e desde que recebi este email(dia 8/12) está com esta falha.
 
 Eu não acredito que seja um problema da linguagem, mas sim do desenvolvedor.
@@ -44,10 +44,10 @@ O que eu quero mostrar nesse post é que a ferramenta em si pode ser construída
 
 A minha linguagem predileta e que tenho mais domínio é o PHP. Infelizmente pseudo-desenvolvedores queimaram a linguagem e o mercado se desvalorizou. O .NET cresceu e o [RoR(Ruby on Rails)](http://www.rubyonrails.org/ "Ruby on Rails") está na moda.
 
-Ambos são FrameWorks e não apenas linguagens de programação.<br>
+Ambos são FrameWorks e não apenas linguagens de programação.\
 O .NET tem a vantagem de exportar uma DLL compilada, mas as 3 linguagens são poderosas.
 
-Os FrameWorks com o Design Patterns MVC estão cada vez mais na moda. Eu já estou migrando.<br>
+Os FrameWorks com o Design Patterns MVC estão cada vez mais na moda. Eu já estou migrando.\
 E você? Já utiliza um FrameWork?
 
 Você tem preconceitos com alguma linguagem de Programação? Qual? Por quê?

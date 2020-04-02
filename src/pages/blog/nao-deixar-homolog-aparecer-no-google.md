@@ -43,7 +43,7 @@ Disallow: /
 
 ### Htaccess Authentication
 
-Mesmo que o site não esteja no Google, pode acontecer de algum usuário encontrar seu site de Homologação. Seja por um teste de Share de Twitter/Facebook que o analista de QA faz(twitter sem querer), ou de qualquer maneira que acidentalmente chegue à algum usuário.<br>
+Mesmo que o site não esteja no Google, pode acontecer de algum usuário encontrar seu site de Homologação. Seja por um teste de Share de Twitter/Facebook que o analista de QA faz(twitter sem querer), ou de qualquer maneira que acidentalmente chegue à algum usuário.\
 Por isso, recomendo que você bloqueie o acesso por usuário e senha. E a melhor maneira e a mais fácil é pelos arquivos **.htaccess** e **.htpasswd**
 
 Adicione a descrição abaixo no seu arquivo _.htaccess_(geralmente no topo dele), mas altere o `/path/to/.htpasswd` para o [path](http://www.htaccesstools.com/articles/full-path-to-file-using-php/) específico do seu ambiente.

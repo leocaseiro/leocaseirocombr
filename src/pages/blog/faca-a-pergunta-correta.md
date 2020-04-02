@@ -22,13 +22,13 @@ Caso passe muitas horas tentando resolver pequenos problemas de código, bugs ge
 
 A falta de conhecimento técnico nem sempre é o problema ali. Mas sim, a experiência com o idioma. Voltando ao meu post anterior sobre idiomas. O domínio da Língua Inglesa, Portuguesa ou qualquer que seja, faz mais diferença do que o seus anos de estudos em cálculos matemáticas, fluxograma e algoritmos pra regras de negócio.
 
-Qual o sentido de continuar utilizando o [Google](http://google.com/ "Google") se não encontra suas soluções.<br>
-Na minha palestra [Agilize sua busca e use RSS a seu favor](http://pt.slideshare.net/leocaseiro/agilize-sua-busca-e-use-rss-seu-favor "Palestra Senac 2011 - Agilize sua busca e use RSS a seu favor"), tentei mostrar dicas de como explorar alguns recursos do site de busca mais famoso do mundo.<br>
+Qual o sentido de continuar utilizando o [Google](http://google.com/ "Google") se não encontra suas soluções.\
+Na minha palestra [Agilize sua busca e use RSS a seu favor](http://pt.slideshare.net/leocaseiro/agilize-sua-busca-e-use-rss-seu-favor "Palestra Senac 2011 - Agilize sua busca e use RSS a seu favor"), tentei mostrar dicas de como explorar alguns recursos do site de busca mais famoso do mundo.\
 Utilizando esses recursos de maneira incorreta, o tiro pode sair pela culatra e o seu tempo que é dinheiro pode te dar mais prejuízo que você esperava. Você vai ter um efeito inverso, tendo no seu final de expediente milhares de abas de navegadores abertos com milhares de scripts ou conceitos diferentes para chegarem na sua solução.
 
 > To be ahead!
 
-Tente prever o futuro!<br>
+Tente prever o futuro!\
 Tenha Foco! Descubra primeiramente qual o seu problema, para só depois reformular a sua pergunta.
 
 O Google responde tudo, até mesmo se você é inteligente ou não!

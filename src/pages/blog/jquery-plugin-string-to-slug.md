@@ -26,7 +26,7 @@ O plugin **jQuery stringToSlug** serve para criar [URL AMIGÁVEIS (SLUG)](https:
 
 Depois de muito pesquisar um **Plugin em jQuery** que fizesse isso, encontrei muitos que funcionam para outros idiomas. Mas somente para idiomas que não possuem acentuação.
 
-_JQUERY SLUG PLUGIN (PT-BR Special Chars Replaces)_<br>
+_JQUERY SLUG PLUGIN (PT-BR Special Chars Replaces)_\
 _JQUERY SIMPLESLUG (PT-BR Special Chars Replaces)_
 
 **<span style="font-weight: normal;">Por isso, fiz questão de estudar as melhores features dos 2 plugins, e obviamente, que funcionasse em</span> Português do Brasil** \[**PT-BR**\].
@@ -104,13 +104,13 @@ $(document).ready( function() {
   );
 });
 ```
-Dúvidas e/ou sugestões, favor informar nos comentários.<br>
+Dúvidas e/ou sugestões, favor informar nos comentários.\
 Melhorias na documentação são bem vindas.
 
 > Se este plugin é útil para você, por favor dê um feedback votando no site do jQuery:
 > [http://plugins.jquery.com/project/stringToSlug](http://plugins.jquery.com/project/stringToSlug "jQuery Plugin strinToSlug")
 
-> #### Versão Server Side em PHP<br>
+> #### Versão Server Side em PHP\
 >
-> <small>atualizado em 25 de Julho de 2010</small><br>
+> <small>atualizado em 25 de Julho de 2010</small>\
 > Para visualizar e efetuar o download da Classe em PHP que faz o mesmo que este plugin, acesse o link da [Classe StringToSlug PHP](https://leocaseiro.com.br/classe-stringtoslug-php)

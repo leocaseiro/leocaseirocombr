@@ -26,13 +26,13 @@ Com certeza você já passou por algum deste problemas:  
 
 Comigo foi assim, estava criando uma galeria de vídeos que devia exibir um screenshot(na agência chamamos de _frame_), mas acontece que tínhamos alguns vídeos que ainda não possuíam o screenshot. E tendo todos os dados necessários para serem exibidos no site, menos o screenshot, deveriam ser listados na HOME.
 
-O que fazer neste caso?<br>
-Criar um código php do tipo `if file_exists()`?<br>
+O que fazer neste caso?\
+Criar um código php do tipo `if file_exists()`?\
 Conheço uma opção melhor e nativa do JavaScript.
 
 **Evento OnError**
 
-Como funciona o evento OnError?<br>
+Como funciona o evento OnError?\
 Funciona ao contrário do evento OnLoad que é a resposta de uma imagem (ou uma janela) que foi carregada com sucesso(ta aí o nome OnLoad = Carregou com Sucesso)
 
 Assim que o browser interpretar um erro de carregamento de uma imagem(também pode ser utilizado em um window, como uma PopUp), ele executa o método OnError.

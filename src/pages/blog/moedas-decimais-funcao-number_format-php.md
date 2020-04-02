@@ -16,16 +16,16 @@ meta_title: "Formatar moedas ou números decimais com a função number_format()
 
 A **função number_format() do PHP**, além de **trocar ponto(.) por vírgula(,)**, também serve para definir quantas **casas decimais** teremos no valor.
 
-O número que é em Inglês _999.9_ fica _999,90_ no formato moeda brasileiro.<br>
+O número que é em Inglês _999.9_ fica _999,90_ no formato moeda brasileiro.\
 Além disso, podemos definir se irá exibir algum caracter a cada grupo de milhar (de mil em mil)
 
 **string number\_format ( float $number, int $decimals, string $dec\_point, string $thousands\_sep )**
 
-podemos definir por:<br>
+podemos definir por:\
 **valor texto number\_format ( $valor\_decimal, $casas\_decimais, $caracter\_definicao\_decimal, $caracter\_definicao\_milhar )**
 
 
-Por exemplo, se quisermos que o número _1000_ fique como _1.000_, utilizamos a função desta maneira:<br>
+Por exemplo, se quisermos que o número _1000_ fique como _1.000_, utilizamos a função desta maneira:\
 ```php
 $valor = 1000;
 echo number_format($valor,0,",",".");
