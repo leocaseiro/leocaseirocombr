@@ -44,8 +44,8 @@ Disallow: /
 ### Htaccess Authentication
 
 Mesmo que o site não esteja no Google, pode acontecer de algum usuário encontrar seu site de Homologação. Seja por um teste de Share de Twitter/Facebook que o analista de QA faz(twitter sem querer), ou de qualquer maneira que acidentalmente chegue à algum usuário.\
-Por isso, recomendo que você bloqueie o acesso por usuário e senha. E a melhor maneira e a mais fácil é pelos arquivos **.htaccess** e **.htpasswd**
-
+Por isso, recomendo que você bloqueie o acesso por usuário e senha. E a melhor maneira e a mais fácil é pelos arquivos **.htaccess** e **.htpasswd** \
+\
 Adicione a descrição abaixo no seu arquivo _.htaccess_(geralmente no topo dele), mas altere o `/path/to/.htpasswd` para o [path](http://www.htaccesstools.com/articles/full-path-to-file-using-php/) específico do seu ambiente.
 ```
 AuthType Basic
@@ -58,8 +58,8 @@ Require valid-user
 > Para facilitar, existe uma Ferramenta do tipo Wizzard que pode gerar esses arquivos pra você.
 > Acesse o site [htaccesstools](http://www.htaccesstools.com/htaccess-authentication/)
 
-Não basta colocar uma restrição se você não souber a senha, certo?
-
+Não basta colocar uma restrição se você não souber a senha, certo?\
+\
 Então abaixo, vou lhe mostrar um exemplo de um _.htpasswd_ gerado com **admin** e senha **1q2w3e4r**:
 ```
 admin:$apr1$Gy3X0...$nmRbOnEabkNmH87lfZz2u/

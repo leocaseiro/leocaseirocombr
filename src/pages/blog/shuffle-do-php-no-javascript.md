@@ -29,6 +29,7 @@ function randOrd() {
 }
 ```
 
+<br>
 
 Caso tenhamos um array como no modelo:
 ```javascript
@@ -39,14 +40,16 @@ nome[2] = "Leo";
 nome[3] = "Maria";
 nome[4] = "Silvia";
 ```
+<br>
 
 Perceba que os valores de nosso array está em ordem alfabética.
 Utilizamos então a função randOrd() em nosso array:
 ```javascript
 nome.sort(randOrd);
 ```
-
 Ao imprimir os array, eles estarão desordenados.
+
+<br>
 
 Uma maneira de exibí-los é utilizando um for:
 
@@ -56,11 +59,14 @@ for (i=0; i<totalnomes ; i++) {
     document.write('\ Este é o array['+i+']: ' + nome[i]);
 }
 ```
+<br>
 
 Este exemplo poderá mostrar:
 
-Este é o array\[0\]: Maria\
-Este é o array\[1\]: João\
-Este é o array\[2\]: Leo\
-Este é o array\[3\]: Carlos\
-Este é o array\[4\]: Silvia\
+```
+Este é o array[0]: Maria
+Este é o array[1]: João
+Este é o array[2]: Leo
+Este é o array[3]: Carlos
+Este é o array[4]: Silvia
+```

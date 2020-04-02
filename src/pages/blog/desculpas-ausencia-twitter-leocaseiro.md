@@ -34,8 +34,8 @@ Além de estar envolvido neste Ecommerce e [outros projetos por fora](https://le
 
 Estive presente também no 1o Encontro do [PHP-SP](http://phpsp.org.br/). Presenciei uma palestra com 4 ZCEs([Augusto Pascutti](http://www.augustopascutti.com/), [Duodraco](http://duodraco.wordpress.com/), [Ivan Rosolen](http://ivanrosolen.com/) e [Rafael Dohms](http://www.rafaeldohms.com.br/)) focada na prova de Certificação da Zend voltada ao PHP e uma aula com o [Edgar da Silva](http://www.manjaphp.com.br/) sobre o Zend FrameWork.
 
-Olha uma foto ae(sou o de laranja, pra quem não sabe...rsrs)
-[![Primeiro Encontro PHP-SP](/img/desculpas-ausencia-twitter-leocaseiro/3261843948_b422fdde4d.jpg "Primeiro Encontro PHP-SP")](http://www.flickr.com/photos/joseluizcoe/3261843948/sizes/l/ "Primeiro Encontro PHP-SP")
+Olha uma foto ae(sou o de laranja, pra quem não sabe...rsrs)\
+[![Primeiro Encontro PHP-SP](/img/desculpas-ausencia-twitter-leocaseiro/encontro-php-sp-2009.jpg "Primeiro Encontro PHP-SP")](http://www.flickr.com/photos/joseluizcoe/3261843948/sizes/h/ "Primeiro Encontro PHP-SP")
 
 Bom, como podem perceber estou [estudando bastante](https://leocaseiro.com.br/programador-web-estuda-mais-q-medico) e trabalhando muito. Os 2 em paralelo e com isso é complicado montar artigos de qualidade.
 Se quiser, me acompanhe no twitter que eu estou sempre por lá. Geralmente posto métodos e funções do ZF ou assuntos gerais da área. Raramente posto coisas inúteis, como muitos twitters rsrs...

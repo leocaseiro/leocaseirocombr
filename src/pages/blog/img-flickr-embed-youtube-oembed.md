@@ -44,7 +44,8 @@ http://www.flickr.com/services/oembed/?url=http://www.flickr.com/photos/mbottan/
 ```
 
 Ou seja, capturamos facilmente a URL da foto e inserimos num elemento img, fora as outras informações que ele retorna no XML.
-
+<br>
+<br>
 Podemos usar o JSON para Ajax também, desta maneira:
 
 ```
@@ -68,6 +69,7 @@ http://www.flickr.com/services/oembed/?url=http://www.flickr.com/photos/mbottan/
 ```
 
 Existem diversos parâmetros para utilizarmos a ferramenta que podem ser encontrados na documentação do [Site Oficial](http://www.oembed.com/).
+<br>
 
 ### Youtube
 
@@ -94,8 +96,9 @@ http://www.youtube.com/oembed/?url=http://www.youtube.com/watch?v=cm_u2QHwpRk
   "width": 480
 }
 ```
+<br>
 
-O retorno padrão da API no Youtube é em formato **JSON**, mas podemos retornar em XML se quisermos, basta adicionarmos o parâmetro format:
+O retorno padrão da API no Youtube é em formato **JSON**, mas podemos retornar em **XML** se quisermos, basta adicionarmos o parâmetro **format**:
 
 ```
 http://www.youtube.com/oembed/?url=http://www.youtube.com/watch?v=cm_u2QHwpRk&format=xml

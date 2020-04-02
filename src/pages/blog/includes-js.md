@@ -18,7 +18,8 @@ meta_title: "Como chamar um Javascript externo dentro de um js tipo include"
 
 Eu sempre tentei fazer uma chamada de um arquivo Java Script externo dentro de outro. E sempre tive problemas.
 
-Estava fazendo manutenção em um código, quando me deparei com o código do [analytics](http://www.google.com/analytics/pt-BR/index.html "Google Analytics"). E percebi que o Google faz isso a décadas.
+Estava fazendo manutenção em um código, quando me deparei com o código do [analytics](http://www.google.com/analytics/pt-BR/index.html "Google Analytics"). E percebi que o Google faz isso a décadas.\
+<br>
 
 Se você, como eu, ainda não sabe(sabia) como fazer isso, veja:
 ```javascript
@@ -26,6 +27,7 @@ Se você, como eu, ainda não sabe(sabia) como fazer isso, veja:
   document.write(unescape("%3Cscript src='nomedoarquivo.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 ```
+<br>
 
 É simples e funcional. Nunca mais eu farei algo concatenando strings com strings, como:
 ```javascript
@@ -33,6 +35,7 @@ Se você, como eu, ainda não sabe(sabia) como fazer isso, veja:
   document.write('<scr '+ 'IPT type="text/javascript" SRC="arquivo.js">< /SCRIPT>');
 </scr></script>
 ```
+<br>
 
 Fui super contente avisar meu colega de trabalho pelo MSN, o [Pedro Rogério](http://www.pinceladasdaweb.com.br/blog/ "Pedro Rogerio do Pinceladas da Web") que me mostrou uma outra forma. É um pouco mais complexa, utiliza o createElement por DOM. E pode funcionar melhor para scripts dinâmicos.
 ```javascript

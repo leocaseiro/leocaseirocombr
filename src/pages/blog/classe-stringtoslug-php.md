@@ -20,7 +20,7 @@ A Classe StringToSlug transforma qualquer String em formato Slug. Transformando 
 Existem diversos algoritmos que transformam String em Slugs(permalinks). Mas à maioria com expressões regulares e que retiram qualquer caractere acentuado na língua Portuguesa. Funcionam muito bem no idioma Inglês, mas não resolve para o nosso idioma(Português do Brasil).
 
 
-Foi por isso que o [Samir Braga](http://twitter.com/samirbraga) criou uma Classe com um algoritmo semelhante à do [jQuery Plugin StringToSlug](https://leocaseiro.com.br/jquery-plugin-string-to-slug) feita em PHP.\
+Foi por isso que o [Samir Braga](http://twitter.com/samirbraga) criou uma Classe com um algoritmo semelhante à do [jQuery Plugin StringToSlug](https://leocaseiro.com.br/jquery-plugin-string-to-slug) feita em PHP. \
 O Samir à chamou de Permalink. Mas como percebi que na Web o termo SLUG é bem conhecido e utilizado. Deixo com este nome para facilitar quem procura este algoritmo.
 
 Para quem não sabe o que é um SLUG. É simplesmente uma string transformada em letras minúsculas e sem acentuação. Assim transformamos títulos de artigos em URL amigáveis. Melhorando usabilidade e SEO.

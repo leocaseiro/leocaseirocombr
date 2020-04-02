@@ -24,16 +24,23 @@ O plugin **jQuery stringToSlug** serve para criar [URL AMIGÁVEIS (SLUG)](https:
 > * [jquery.stringToSlug.js 1.3](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug/archive/1.3.zip "Download jQuery stringToSlug Plugin")
 > * [jQuery stringToSlug Plugin no GitHub para quem quiser contribuir](https://github.com/leocaseiro/jQuery-Plugin-stringToSlug "jQuery stringToSlug Plugin no github")
 
+<br>
+
 Depois de muito pesquisar um **Plugin em jQuery** que fizesse isso, encontrei muitos que funcionam para outros idiomas. Mas somente para idiomas que não possuem acentuação.
 
 _JQUERY SLUG PLUGIN (PT-BR Special Chars Replaces)_\
 _JQUERY SIMPLESLUG (PT-BR Special Chars Replaces)_
 
+<br>
+
 **<span style="font-weight: normal;">Por isso, fiz questão de estudar as melhores features dos 2 plugins, e obviamente, que funcionasse em</span> Português do Brasil** \[**PT-BR**\].
 
 > #### [Demo](http://leocaseiro.github.io/jQuery-Plugin-stringToSlug/)
 
-Abaixo, segue a documentação em Inglês, pois pretendo disponibilizar no site da jQuery.
+<br>
+
+Abaixo, segue a documentação em Inglês, pois pretendo disponibilizar no site da jQuery.\
+<br>
 
 #### Default Usage:
 
@@ -47,6 +54,7 @@ $(document).ready( function() {
   $("#string").stringToSlug();
 });
 ```
+<br>
 
 #### The values Default at Plugin Usage:
 
@@ -59,6 +67,8 @@ $(document).ready( function() {
   });
 });
 ```
+
+<br>
 
 #### Other(s) Event(s) Usage:
 
@@ -77,6 +87,7 @@ $(document).ready( function() {
   );
 });
 ```
+<br>
 
 #### Other Get Put Preview Usage:
 
@@ -93,6 +104,7 @@ $(document).ready( function() {
   );
 });
 ```
+<br>
 
 #### Replace dash by other char Usage:
 
@@ -104,13 +116,19 @@ $(document).ready( function() {
   );
 });
 ```
-Dúvidas e/ou sugestões, favor informar nos comentários.\
+<br>
+
+Dúvidas e/ou sugestões, favor informar nos comentários. \
 Melhorias na documentação são bem vindas.
+
+<br>
 
 > Se este plugin é útil para você, por favor dê um feedback votando no site do jQuery:
 > [http://plugins.jquery.com/project/stringToSlug](http://plugins.jquery.com/project/stringToSlug "jQuery Plugin strinToSlug")
 
-> #### Versão Server Side em PHP\
+<br>
+
+> #### Versão Server Side em PHP
 >
-> <small>atualizado em 25 de Julho de 2010</small>\
+> <small>atualizado em 25 de Julho de 2010</small> \
 > Para visualizar e efetuar o download da Classe em PHP que faz o mesmo que este plugin, acesse o link da [Classe StringToSlug PHP](https://leocaseiro.com.br/classe-stringtoslug-php)

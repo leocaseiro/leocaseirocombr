@@ -20,22 +20,24 @@ Pedido: Favor criar o mundo.
 
 De: Deus\
 Para: Atendimento\
-Briefing incompleto. Solicito informações mais detalhadas.\
+Briefing incompleto. Solicito informações mais detalhadas.
 
 De: Atendimento\
 Para: Deus\
+<br>
 
 JOB\
 O cliente solicitou que o mundo fosse redondo, colorido, que fosse claro durante o dia e escuro pela noite. Pediu muita água nos rios e mares e nenhuma nos desertos. Quer que no verão faça calor e frio no inverno. Quer plantas que cresçam na terra e animais que respirem. Montanhas altas, depressões baixas e planícies planas.
 
 RESTRIÇÕES\
-O cliente não quer acontecendo ao mesmo tempo chuva e sol.\
+O cliente não quer acontecendo ao mesmo tempo chuva e sol.
 
 MÍDIA\
 O cliente pretende fazer uma inserção deste mundo no sistema solar e deixá–lo rodando lá por tempo indeterminado.
 
 OBRIGATORIEDADES\
-Nós tentamos tirar essa idéia da cabeça dele, mas não houve jeito, ele bateu o pé: quer colocar gente no mundo.
+Nós tentamos tirar essa idéia da cabeça dele, mas não houve jeito, ele bateu o pé: quer colocar gente no mundo.\
+<br>
 
 De: Deus\
 Ah, essa não! Como é que eu vou trabalhar desse jeito? Não vai caber! É muita informação para um mundo só. O ideal é fazer um mundo e uma luz para dividir as informações. Além do mais, gente no mundo nós sabemos que não dá certo. Nós podemos deixar as pessoas na lua e para o mundo a gente retoma aquela idéia dos Incas Venusianos.
@@ -84,6 +86,7 @@ De: Atendimento\
 Você é quem sabe. Também podemos ir pensando numa campanha de manutenção…
 
 De: Deus\
-Nem pensar! Se precisar, depois mando meu filho lá pra dar uma olhada!
+Nem pensar! Se precisar, depois mando meu filho lá pra dar uma olhada!\
+<br>
 
 _Não sei qual o autor do texto. Apenas recebi por email de um colega de trabalho. Se alguém souber, me informe para eu colocar os créditos!_

@@ -12,14 +12,13 @@ draft: false
 meta_title: "Ajude desabrigados de Santa Catarina"
 ---
 
-Lendo meus feeds, encontrei a maravilhosa atitude solidária do [Fique-Rico](http://www.fique-rico.com/ "Blog sobre como ganhar Dinheiro sendo blogueiro").\
+Lendo meus feeds, encontrei a maravilhosa atitude solidária do [Fique-Rico](http://www.fique-rico.com/ "Blog sobre como ganhar Dinheiro sendo blogueiro"). \
 Um blog que ensina os blogueiros a ganharem dinheiro, e agora [está movendo uma ação para ajudar os desabrigados de Santa Catarina](http://www.fique-rico.com/2008/12/01/o-seu-comentario-vale-010eur-para-as-vitimas-das-enchentes-de-santa-catarina-brasil/ "Ajude Santa Catarina postando um comentário").
 
 Você já se imaginou nesta situação?
 
-![Desabrigados em Santa Catarina](/img/ajude-desabrigados-sc/129_2319-floripachuva.jpg "Desabrigados em Santa Catarina")
-_Desabrigados em Santa Catarina_
-
+[![Desabrigados em Santa Catarina](/img/ajude-desabrigados-sc/129_2319-floripachuva.jpg "Desabrigados em Santa Catarina")](/img/ajude-desabrigados-sc/129_2319-floripachuva.jpg "Desabrigados em Santa Catarina")\
+<small>Desabrigados em Santa Catarina</small><br><br>
 
 Imagine um dia voltando para sua casa do seu trabalho e você não encontra sua casa.\
 Você não tem mais sua TV, seu computador, seu SOM, seu Telefone (ninguém irá mais te contatar...Ha! você tem celular? E cadê o seu carregador agora?), não tem mais nenhuma roupa, nenhum tênis. Não tem mais nada!\
@@ -48,4 +47,6 @@ Então, se você quer ajudar, manda ver, se você não quer, nunca mais leia meu
 >
 > (...)A Defesa Civil de Santa Catarina disponibilizou um número de discagem gratuita para os interessados em fazer doação por depósito bancário . Por meio do _0800 48 2020_ será possível obter todas informações sobre Bancos e contas bancárias abertas para esse fim.(...)
 
-\*Update em 02/12/2008 às 10h57
+<br>
+
+* _Atualizado em 02/12/2008 às 10h57_

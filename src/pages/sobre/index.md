@@ -4,20 +4,20 @@ path: /sobre
 title: Sobre o Autor
 ---
 
-Leonardo Adorno Caseiro, 34 anos, designer e desenvolvedor web.\
+Leonardo Adorno Caseiro, 34 anos, designer e desenvolvedor web. \
 Nascido em São Paulo, SP no dia 1 de Junho de 1985.
 
-Em 2001, me matriculei no Colegial Técnico em Informática no Colégio Vectra(antigo Colégio Pinheiros).\
-Logo, consegui um "estágio" numa micro-empresa chamada Empório de Informática, onde fazia manutenção e montava computadores, instalava Windows, configurava e etc. Como a empresa não possuia WebSite tomei a pró-atividade de criá-lo.\
-Procurei no [Cadê](https://pt.wikipedia.org/wiki/Yahoo!_Cad%C3%AA%3F)(naquela época eu ainda não usava o [Google](http://www.google.com.br)) como criar sites e aprendi a usar o [FrontPage](https://pt.wikipedia.org/wiki/Microsoft_FrontPage). Criei um site com milhares de gif´s animados e puramente em HTML, hospedado no [HPG](https://web.archive.org/web/20001109084700/http://www.hpg.com.br/).\
+Em 2001, me matriculei no Colegial Técnico em Informática no Colégio Vectra(antigo Colégio Pinheiros). \
+Logo, consegui um "estágio" numa micro-empresa chamada Empório de Informática, onde fazia manutenção e montava computadores, instalava Windows, configurava e etc. Como a empresa não possuia WebSite tomei a pró-atividade de criá-lo. \
+Procurei no [Cadê](https://pt.wikipedia.org/wiki/Yahoo!_Cad%C3%AA%3F)(naquela época eu ainda não usava o [Google](http://www.google.com.br)) como criar sites e aprendi a usar o [FrontPage](https://pt.wikipedia.org/wiki/Microsoft_FrontPage). Criei um site com milhares de gif´s animados e puramente em HTML, hospedado no [HPG](https://web.archive.org/web/20001109084700/http://www.hpg.com.br/). \
 Descobri qual carreira gostaria de seguir naquele momento. Trabalhar criando websites. Foi então que comecei a jornada de virar noites pesquisando e estudando! Abria o notepad(bloco de notas) e escrevia tags, pegava scripts(em JavaScript) prontos e otimizava-os.
 
 Formado em 2003, entrei em uma empresa de Internet Banda Larga de São Paulo, trabalhando como suporte telemarketing. Fui descoberto por gostar de trabalhar com HTML e entrei para participar da equipe de desenvolvimento da Intranet, onde disponibilizava conteúdos de ajuda para os analistas. Lá tive meu primeiro contato com [PHP](http://www.php.net), [MySQL](http://www.mysql.com/) e [CSS](http://www.maujor.com/tutorial/intrtut.php). Conheci o [DreamWeaver](<http://www.adobe.com/br/products/dreamweaver/ >) e fui me desenvolvendo cada vez mais.
 
 Em 2005 entrei no [Campos Universitário Senac](http://www.sp.senac.br/jsp/webcas/default.jsp?newsID=a1978.htm&testeira=722&sub=0&unit=NONE&type=PE,P,M,G,X) no Curso Superior de Tecnólogo Design Multimídia. Me formei em 2008.
 
-Naquela época eu me familiarizava mais com Design do que programação.\
-A minha vida profissional me levou para o lado do Desenvolvimento, deixando de lado a área de criação.\
+Naquela época eu me familiarizava mais com Design do que programação. \
+A minha vida profissional me levou para o lado do Desenvolvimento, deixando de lado a área de criação. \
 Trabalhei na [MediaDev](http://www.mediadev.com.br/) de Maio de 2007 à Junho de 2009, uma Agência de Desenvolvimento Web que pertence ao Grupo AdBusiness. Lá tive meu primeiro contato com o WordPress, ainda em 2007. Fiz também meu primeiro projeto em MVC, um e-commerce feito sem CMS.
 
 Trabalhei na Agência [Load Comunicação](http://www.loadcom.com.br 'Load Comunicação') de Junho de 2009 à Maio de 2010. Me dedicando cada vez mais em padrões W3C, usabilidade, acessibilidade, SEO e trabalhei com Design Pattern MVC e muito WordPress.
