@@ -5,8 +5,11 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import useSiteMetadata from '../components/SiteMetadata';
+import { Disqus } from 'gatsby-plugin-disqus';
 
 export const BlogPostTemplate = ({
+  id,
   content,
   contentComponent,
   date,
@@ -14,8 +17,17 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  slug,
 }) => {
-  const PostContent = contentComponent || Content
+	const PostContent = contentComponent || Content
+
+	// Disqus comments
+	const { url } = useSiteMetadata();
+	const disqusConfig = {
+		url: `${url + slug}`,
+		identifier: id,
+		title,
+	};
 
   return (
 		<section className="section">
@@ -24,7 +36,9 @@ export const BlogPostTemplate = ({
 				<div className="columns">
 					<div className="column is-10 is-offset-1">
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
-						<small style={{ marginBottom: `3rem` }} className="is-block mb-2">publicado em {date}</small>
+						<small style={{ marginBottom: `3rem` }} className="is-block mb-2">
+							publicado em {date}
+						</small>
 						<PostContent content={content} />
 						{categories && categories.length ? (
 							<div style={{ marginTop: `4rem` }}>
@@ -50,6 +64,11 @@ export const BlogPostTemplate = ({
 								</ul>
 							</div>
 						) : null}
+					</div>
+				</div>
+				<div className="columns">
+					<div className="column is-10 is-offset-1">
+						<Disqus config={disqusConfig} />
 					</div>
 				</div>
 			</div>
@@ -104,6 +123,7 @@ export const pageQuery = graphql`
 						title
 						tags
 						categories
+						slug
 					}
 				}
 			}

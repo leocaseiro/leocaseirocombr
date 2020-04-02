@@ -2,6 +2,7 @@ module.exports = {
 	siteMetadata: {
 		title: 'Leo Caseiro',
 		description: 'programação e desenvolvimento web (PHP, MySQL, JavaScript, jQuery, WordPress, etc)',
+		url: 'https://leocaseiro.com.br/',
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
@@ -79,6 +80,12 @@ module.exports = {
 			resolve: 'gatsby-plugin-netlify-cms',
 			options: {
 				modulePath: `${__dirname}/src/cms/cms.js`,
+			},
+		},
+		{
+			resolve: `gatsby-plugin-disqus`,
+			options: {
+				shortname: `leo-caseiro`,
 			},
 		},
 		{
